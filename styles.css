@@ -15,12 +15,14 @@ header {
 }
 
 header h1 {
-  font-size: 48px;
+  font-size: 60px;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 header p {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 main {
@@ -32,22 +34,29 @@ section {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 30px;
   color: #333;
+  text-align: center;
 }
 
 .project {
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project h3 {
-  font-size: 24px;
+  font-size: 28px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #007bff;
 }
 
@@ -57,12 +66,18 @@ ul {
 
 ul li {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
   color: #444;
 }
 
 .fa-github,
 .fa-linkedin {
-  margin-right: 5px;
-  font-size: 24px;
+  margin-right: 10px;
+  font-size: 28px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  transform: scale(1.2);
 }
