@@ -2,36 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Event Website</title>
+  <style>
+    /* Basic CSS for styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <h1>My Event Today</h1>
+    <p>Welcome to the latest events!</p>
   </header>
-
-  <aside class="sidebar">
-    <nav class="sidebar-nav">
-      <ul>
-        <li><a href="#">Section 1</a></li>
-        <li><a href="#">Section 2</a></li>
-        <li><a href="#">Section 3</a></li>
-      </ul>
-    </nav>
-  </aside>
-
-  <main class="main-content">
-    <div class="container">
-      <h1>Welcome to Your Website</h1>
-      <p>This is the main content area. You can add your content here.</p>
-    </div>
-  </main>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our event website! Check out the latest events happening around you.</p>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Learn more about our mission and vision to bring people together through amazing events.</p>
+  </section>
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Explore the exciting events coming soon!</p>
+    <!-- Add event details here -->
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch with us for any queries or collaborations.</p>
+    <!-- Add contact form or details here -->
+  </section>
+  <footer>
+    <p>&copy; 2023 My Event Today. All rights reserved.</p>
+  </footer>
 </body>
 </html>
