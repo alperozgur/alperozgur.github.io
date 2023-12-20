@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alper Özgür</title>
-  <style>
-    /* Basic CSS for styling */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #0050a0;
-      color: #fff;
-      padding: 20px;
-      text-align: left;
-    }
-    nav {
-      background-color: #003d7a;
-      float: right;
-      text-align: right;
-      padding: 10px;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 20px;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<title>Portfolio</title>
 </head>
-<body>
-  <header>
-    <h1>AOZ</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About me</a>
-      <a href="https://bit.ly/cvs_tr">Library</a>
-      <a href="#contact">Contact</a>
-    </nav>
+<style>
+  *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+}
+header{
+background-color: var(--bgDark);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+}
+header nav .left a{
+color: var(--white);
+text-decoration: none;
+margin-right: 2rem;
+text-transform: uppercase;
+transition: all .2s ease;
+}
+header nav .left a:hover{
+color: var(--primary);
+}
+header nav {
+padding: 2rem 0;
+}
+header nav .logo{
+margin-right: 3rem;
+}
+</style>
+<body>  
+  <header>  
+   <div class="container">  
+     <nav class="flex items-centre justify-between">  
+         <div class="left flex justfiy-right">  
+         <div class="logo">  
+           <img src="./images/logo.png" width="50px" alt="logo">  
+         </div>  
+         <div>  
+           <a href="#">Home</a>  
+           <a href="#">About</a>  
+           <a href="#">Services</a>  
+           <a href="#">Blog</a></li>  
+           <a href="#">More</a>  
+         </div>  
+       </div>  
+       <div class="right">  
+         <button class="btn btn-primary">Contact</button>  
+       </div>  
+     </nav>
+   </div>  
   </header>
-  <section id="home">
-    <h2>Home</h2>
-    <p>Welcome to our event website! Check out the latest events happening around you.</p>
-  </section>
-  <section id="about">
-    <h2>About me</h2>
-    <p>Learn more about our mission and vision to bring people together through amazing events.</p>
-  </section>
-  <section id="events">
-    <h2>Library</h2>
-    <p>Explore the exciting papers!</p>
-    <!-- Add event details here -->
-  </section>
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Get in touch with me for any queries or collaborations.</p>
-    <!-- Add contact form or details here -->
-  </section>
-  <footer>
-    <p>&copy; 2023 Alper Özgür. All rights reserved.</p>
-  </footer>
+  <div class="hero flex items-centre justify-between">
+    <div class="left flex-1 justify-center">
+    <img src="./images/main-img.png" alt="Profile">
+    </div>
+    <div class="right flex-1">
+      <h6>Akshat Sharma</h6>
+      <h1>I'm a Web<br> <span>Developer</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum nam nobis, minima
+      laudantium fugit sequi nostrum quod impedit, beatae necessitatibus praesentium optio labore
+      nemo!</p>
+      <div>
+      <button class="btn btn-secondary">DOWNLOAD CV</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
