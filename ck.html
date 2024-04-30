@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSS PDF Merger</title>
+    <title>RSS PDF Scraper</title>
 </head>
 <body>
-    <h1>RSS PDF Merger</h1>
+    <h1>RSS PDF Scraper</h1>
 
-    <label for="rssContentInput">Paste RSS Content:</label>
-    <textarea id="rssContentInput" rows="10" cols="50" placeholder="Paste RSS content here"></textarea>
+    <label for="rssContentInput">Paste RSS Content:</label></br>
+    <textarea id="rssContentInput" rows="10" cols="50" placeholder="Paste RSS content here"></textarea></br>
     <button onclick="parseRSS()">Parse and Display Links</button>
     <div id="links"></div>
 
@@ -18,21 +18,26 @@
         function parseRSS() {
             const rssContent = document.getElementById('rssContentInput').value;
 
-            // Function to parse links from the RSS content
-            function parseRSSLinks(xml) {
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(xml, 'text/xml');
-                const items = xmlDoc.getElementsByTagName('item');
-                const links = [];
-
-                for (let i = 0; i < items.length; i++) {
-                    const title = items[i].getElementsByTagName('title')[0].textContent;
-                    const link = items[i].getElementsByTagName('link')[0].textContent;
-                    links.push({ title, link });
-                }
-
-                return links;
+        // Function to parse links from the RSS content
+        function parseRSSLinks(xml) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xml, 'text/xml');
+            const items = xmlDoc.getElementsByTagName('item');
+            const links = [];
+        
+            for (let i = 0; i < items.length; i++) {
+                const title = items[i].getElementsByTagName('title')[0].textContent;
+                let link = items[i].getElementsByTagName('link')[0].textContent;
+        
+                // Replace "www.clinicalkey.com" with "www.google.com" in the link
+                link = link.replace("www.clinicalkey.com", "www.google.com");
+        
+                links.push({ title, link });
             }
+        
+            return links;
+        }
+
 
             // Display PDF links
             const linksContainer = document.getElementById('links');
