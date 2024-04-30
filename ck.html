@@ -8,17 +8,17 @@
 <body>
     <h1>RSS PDF Merger</h1>
 
-    <label for="rssUrlInput">Enter RSS URL:</label>
-    <input type="text" id="rssUrlInput" placeholder="Enter URL">
+    <label for="rssContentInput">Paste RSS Content:</label>
+    <textarea id="rssContentInput" rows="10" cols="50" placeholder="Paste RSS content here"></textarea>
     <button onclick="parseRSS()">Parse and Download Links</button>
     <div id="links"></div>
 
     <script>
-        // Function to parse RSS feed and download PDF files
+        // Function to parse RSS content and download PDF files
         function parseRSS() {
-            const rssUrl = document.getElementById('rssUrlInput').value;
+            const rssContent = document.getElementById('rssContentInput').value;
 
-            // Function to parse links from the RSS file
+            // Function to parse links from the RSS content
             function parseRSS(xml) {
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xml, 'text/xml');
@@ -64,31 +64,26 @@
                 URL.revokeObjectURL(url);
             }
 
-            // Fetch the RSS file and parse links
-            fetch(rssUrl)
-                .then(response => response.text())
-                .then(xml => {
-                    const links = parseRSS(xml);
-                    const pdfFiles = [];
+            // Parse RSS content and merge PDF files
+            const links = parseRSS(rssContent);
+            const pdfFiles = [];
 
-                    links.forEach(link => {
-                        fetch(link)
-                            .then(response => response.arrayBuffer())
-                            .then(pdfBytes => {
-                                pdfFiles.push(pdfBytes);
-                            })
-                            .catch(error => console.error('Failed to fetch PDF file:', error));
-                    });
+            links.forEach(link => {
+                fetch(link)
+                    .then(response => response.arrayBuffer())
+                    .then(pdfBytes => {
+                        pdfFiles.push(pdfBytes);
+                    })
+                    .catch(error => console.error('Failed to fetch PDF file:', error));
+            });
 
-                    // Merge the downloaded PDF files
-                    mergePDFs(pdfFiles)
-                        .then(mergedPdfBytes => {
-                            // Download the merged PDF file
-                            downloadMergedPDF(mergedPdfBytes);
-                        })
-                        .catch(error => console.error('Failed to merge PDF files:', error));
+            // Merge the downloaded PDF files
+            mergePDFs(pdfFiles)
+                .then(mergedPdfBytes => {
+                    // Download the merged PDF file
+                    downloadMergedPDF(mergedPdfBytes);
                 })
-                .catch(error => console.error('Failed to fetch RSS file:', error));
+                .catch(error => console.error('Failed to merge PDF files:', error));
         }
     </script>
 
