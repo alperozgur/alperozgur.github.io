@@ -1,4 +1,4 @@
-[gimmick:theme (inverse: true)](journal)
+[gimmick:theme (inverse: true)](yeti)
 # AOZ
 
 [Home](index.md)
