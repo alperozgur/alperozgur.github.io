@@ -9,15 +9,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
 body {
-  background-color: #3e94ec;
+  background-color: #ffffff;
   font-family: "Roboto", helvetica, arial, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 div.table-title {
-   display: block;
+  display: block;
   margin: auto;
   max-width: 600px;
   padding:5px;
@@ -192,7 +192,7 @@ td.text-right {
             const links = parseRSSLinks(rssContent);
             links.forEach((item, index) => {
                 const linkElement = document.createElement('p');
-                linkElement.innerHTML = `<strong>${item.title}</strong>: <a href="${item.link}" download="${item.title}.pdf">Download</a>`;
+                linkElement.innerHTML = `<tr><td>${item.title}</td> <td><a href="${item.link}" download="${item.title}.pdf">Download</a></td></tr>`;
                 linksContainer.appendChild(linkElement);
             });
         }
