@@ -2,6 +2,7 @@
 # AOZ
 
 [Home](index.md)
+[About](about.md)
 [Works]()
 
   * # Publications
