@@ -22,5 +22,5 @@
   * # Reading
   * [EJVES](ejves.md)
 
-[gimmick:theme](united)
+[gimmick:theme](journal)
 [gimmick:themechooser](Theme)
