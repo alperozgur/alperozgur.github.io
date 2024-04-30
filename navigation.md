@@ -6,18 +6,19 @@
 [Works]()
 
   * # Publications
-  * [Articles](pubs.md#articles)
+  * [Thesis](pubs.md#Thesis)
+  * [Articles](pubs.md#Articles)
   - - - -
   * # Collaborations
   * [Books](pubs.md#)
   - - - -
   * # Presentations
-  * [Oral Presentations](pubs.md#oral-presentations)
-  * [Posters](pubs.md#poster-presentations)
+  * [Oral Presentations](pubs.md#Oral_Presentations)
+  * [Posters](pubs.md#Poster_Presentations)
   - - - -
   * # Participations
-  * [Congress](pubs.md#congress-participations)
-  * [Courses](pubs.md#course-participations)
+  * [Congress](pubs.md#Congress_Participations)
+  * [Courses](pubs.md#Course_Participations)
 
 [Tools]()
 
