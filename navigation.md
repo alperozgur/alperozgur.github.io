@@ -1,4 +1,3 @@
-[gimmick:theme](united)
 # AOZ
 
 [Home](index.md)
@@ -25,4 +24,5 @@
   - - - -
   * 
 
+[gimmick:theme](united)
 [gimmick:themechooser](Theme)
