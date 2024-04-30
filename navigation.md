@@ -1,5 +1,4 @@
-[gimmick:theme](yeti)
-[gimmick:themechooser](Choose theme)
+[gimmick:theme](united)
 # AOZ
 
 [Home](index.md)
@@ -25,3 +24,4 @@
   * [EJVES](ejves.md)
   - - - -
   * 
+[gimmick:themechooser](Choose theme)
