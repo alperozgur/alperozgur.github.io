@@ -1,4 +1,4 @@
-[gimmick:theme (inverse: true)](yeti)
+[gimmick:theme](yeti)
 # AOZ
 
 [Home](index.md)
