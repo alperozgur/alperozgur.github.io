@@ -1,4 +1,4 @@
-[gimmick:theme (inverse: true)](flatly)
+[gimmick:theme (inverse: true)](journal)
 # AOZ
 
 [Home](index.md)
