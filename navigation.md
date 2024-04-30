@@ -1,4 +1,5 @@
 [gimmick:theme](yeti)
+[gimmick:themechooser](Choose theme)
 # AOZ
 
 [Home](index.md)
