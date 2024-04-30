@@ -26,8 +26,9 @@
                 const links = [];
 
                 for (let i = 0; i < items.length; i++) {
+                    const title = items[i].getElementsByTagName('title')[0].textContent;
                     const link = items[i].getElementsByTagName('link')[0].textContent;
-                    links.push(link);
+                    links.push({ title, link });
                 }
 
                 return links;
@@ -38,10 +39,9 @@
             linksContainer.innerHTML = '';
 
             const links = parseRSSLinks(rssContent);
-            links.forEach((link, index) => {
+            links.forEach((item, index) => {
                 const linkElement = document.createElement('p');
-                const linkName = `File${index + 1}.pdf`;
-                linkElement.innerHTML = `<strong>${linkName}</strong>: <a href="${link}" download="${linkName}">Download</a>`;
+                linkElement.innerHTML = `<strong>${item.title}</strong>: <a href="${item.link}" download="${item.title}.pdf">Download</a>`;
                 linksContainer.appendChild(linkElement);
             });
         }
