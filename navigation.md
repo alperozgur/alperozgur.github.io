@@ -5,17 +5,17 @@
 [Research]()
 
   * # Publications
-  * [Thesis](pubs.md#Thesis)
-  * [Articles](pubs.md#Articles)
-  * [Guidelines](pubs.md#Guidelines)
+  * [Thesis](research.md#Thesis)
+  * [Articles](research.md#Articles)
+  * [Guidelines](research.md#Guidelines)
   - - - -
   * # Presentations
-  * [Oral Presentations](pubs.md#Oral_Presentations)
-  * [Posters](pubs.md#Poster_Presentations)
+  * [Oral Presentations](research.md#Oral_Presentations)
+  * [Posters](research.md#Poster_Presentations)
   - - - -
   * # Participations
-  * [Congress](pubs.md#Congress_Participations)
-  * [Courses](pubs.md#Course_Participations)
+  * [Congress](research.md#Congress_Participations)
+  * [Courses](research.md#Course_Participations)
 
 [Tools]()
 
