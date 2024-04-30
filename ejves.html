@@ -55,9 +55,12 @@
         const downloadLink = document.createElement('a');
         downloadLink.classList.add('btn', 'btn-primary');
         downloadLink.textContent = 'Download';
-        downloadLink.href = link;
-        downloadLink.target = '_blank';
 
+        // Modify the link URL
+        const modifiedLink = link.replace("/playContent/", "/service/content/pdf/watermarked/");
+        downloadLink.href = modifiedLink;
+        downloadLink.target = '_blank';
+        
         rssEntry.appendChild(titleElem);
         rssEntry.appendChild(downloadLink);
 
