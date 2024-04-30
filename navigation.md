@@ -2,15 +2,22 @@
 # AOZ
 
 [Home](index.md)
-[Publications]()
+[Works]()
 
-  * # SubMenu Heading 1
-  * [Articles](subitem1.md)
-  * [Posters](subitem2.md)
+  * # Publications
+  * [Articles](articles.md)
+  * [Books](books.md)
+  * [Guidelines](guidelines.md)
   - - - -
-  * # SubMenu Heading 2
-  * [Oral Presentations](subitem3.md)
+  * # Presentations
+  * [Oral Presentations](oral.md)
+  * [Posters](posters.md)
+  * # Participations
+  * [Congress](congress.md)
+  * [Courses](courses.md)
+
+[Tools]()
+
+  * # Reading
+  * [EJVES](ejves.md)
   - - - -
-  * # SubMenu Heading 3
-  * [Book Chapters](subitem3.md)
-[Ejves](ejves.md)
