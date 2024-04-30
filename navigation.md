@@ -21,8 +21,6 @@
 
   * # Reading
   * [EJVES](ejves.md)
-  - - - -
-  * 
 
 [gimmick:theme](united)
 [gimmick:themechooser](Theme)
