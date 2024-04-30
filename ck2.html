@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RSS Link Parser</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+<h1>RSS Link Parser</h1>
+<table id="rssTable">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Download Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table body will be filled dynamically using JavaScript -->
+  </tbody>
+</table>
+
+<script>
+  // Function to fetch and parse the RSS feed
+  function parseRSS(url, callback) {
+    fetch(url)
+      .then(response => response.text())
+      .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+      .then(data => {
+        const items = data.querySelectorAll("item");
+        const parsedItems = Array.from(items).map(item => ({
+          title: item.querySelector("title").textContent,
+          link: item.querySelector("link").textContent
+        }));
+        callback(parsedItems);
+      })
+      .catch(error => console.log("Error fetching RSS feed: ", error));
+  }
+
+  // Function to populate the table with RSS feed items
+  function populateTable(items) {
+    const tableBody = document.querySelector("#rssTable tbody");
+    tableBody.innerHTML = ""; // Clear existing table rows
+    items.forEach(item => {
+      const row = document.createElement("tr");
+      const titleCell = document.createElement("td");
+      titleCell.textContent = item.title;
+      const linkCell = document.createElement("td");
+      const downloadLink = document.createElement("a");
+      downloadLink.textContent = "Download";
+      downloadLink.href = item.link;
+      linkCell.appendChild(downloadLink);
+      row.appendChild(titleCell);
+      row.appendChild(linkCell);
+      tableBody.appendChild(row);
+    });
+  }
+
+  // URL of the RSS feed
+  const rssUrl = "https://cdn.clinicalkey.com/rss/issue/10785884.xml";
+
+  // Call the parseRSS function with the URL and populate the table
+  parseRSS(rssUrl, populateTable);
+</script>
+
+</body>
+</html>
