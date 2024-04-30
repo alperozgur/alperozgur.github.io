@@ -1,5 +1,5 @@
 
-MDwiki
+AOZ
 ======
 
 100% static single file CMS/Wiki done purely with client-side Javascript and HTML5.
