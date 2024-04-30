@@ -8,7 +8,7 @@ Thesis
 
 | Title | Link |
 | ----- | ---- |
-| Minimally Invasive Cardiac Surgery: Our Experience| [Link](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN)|
+| Minimally Invasive Cardiac Surgery: Our Experience| [`Link`](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN)|
 
 Articles
 --------
