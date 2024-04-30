@@ -158,7 +158,12 @@ td.text-right {
     <label for="rssContentInput">Paste RSS Content:</label></br>
     <textarea id="rssContentInput" rows="10" cols="50" placeholder="Paste RSS content here"></textarea></br>
     <button onclick="parseRSS()">Parse and Display Links</button>
-    <div id="links"></div>
+    <table id="links">
+        <tr>
+            <th scope="col">Article</th>
+            <th scope="col">Link</th>
+        </tr>
+    </table>
 
     <script>
         // Function to parse RSS content and display PDF links
@@ -191,8 +196,8 @@ td.text-right {
 
             const links = parseRSSLinks(rssContent);
             links.forEach((item, index) => {
-                const linkElement = document.createElement('p');
-                linkElement.innerHTML = `<tr><td>${item.title}</td> <td><a href="${item.link}" download="${item.title}.pdf">Download</a></td></tr>`;
+                const linkElement = document.createElement('tr');
+                linkElement.innerHTML = `<td>${item.title}</td> <td><a href="${item.link}" download="${item.title}.pdf">Download</a></td>`;
                 linksContainer.appendChild(linkElement);
             });
         }
