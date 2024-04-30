@@ -3,19 +3,21 @@
 
 [Home](index.md)
 [About](about.md)
-[Works](pubs.md)
+[Works]()
 
   * # Publications
-  * [Articles](pubs.md)
-  * [Books](pubs.md)
+  * [Articles](pubs.md#articles)
+  - - - -
+  * # Collaborations
+  * [Books](pubs.md#)
   - - - -
   * # Presentations
-  * [Oral Presentations](pubs.md)
-  * [Posters](pubs.md)
+  * [Oral Presentations](pubs.md#oral-presentations)
+  * [Posters](pubs.md#poster-presentations)
   - - - -
   * # Participations
-  * [Congress](pubs.md)
-  * [Courses](pubs.md)
+  * [Congress](pubs.md#congress-participations)
+  * [Courses](pubs.md#course-participations)
 
 [Tools]()
 

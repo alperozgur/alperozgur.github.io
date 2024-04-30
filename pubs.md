@@ -20,3 +20,9 @@ Oral Presentations
 Poster Presentations
 --------------------
 
+Congress Participations
+-----------------------
+
+Course Participations
+---------------------
+
