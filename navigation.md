@@ -8,8 +8,6 @@
   * # Publications
   * [Thesis](pubs.md#Thesis)
   * [Articles](pubs.md#Articles)
-  - - - -
-  * # Collaborations
   * [Books](pubs.md#)
   - - - -
   * # Presentations
