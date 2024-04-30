@@ -5,7 +5,7 @@ Here you can find a list of my scientific contributions.
 
 Thesis
 ------
-
+    Minimally Invasive Cardiac Surgery: Our Experience
 Articles
 --------
 | Title       | Year | Link |
