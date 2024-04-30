@@ -1,3 +1,4 @@
+[gimmick:theme](flatly)
 # AOZ
 
 [Home](index.md)
