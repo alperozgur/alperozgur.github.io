@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS PDF Merger</title>
+</head>
+<body>
+    <h1>RSS PDF Merger</h1>
+
+    <label for="rssUrlInput">Enter RSS URL:</label>
+    <input type="text" id="rssUrlInput" placeholder="Enter URL">
+    <button onclick="parseRSS()">Parse and Download Links</button>
+    <div id="links"></div>
+
+    <script>
+        // Function to parse RSS feed and download PDF files
+        function parseRSS() {
+            const rssUrl = document.getElementById('rssUrlInput').value;
+
+            // Function to parse links from the RSS file
+            function parseRSS(xml) {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xml, 'text/xml');
+                const items = xmlDoc.getElementsByTagName('item');
+                const links = [];
+
+                for (let i = 0; i < items.length; i++) {
+                    const link = items[i].getElementsByTagName('link')[0].textContent;
+                    links.push(link);
+                }
+
+                return links;
+            }
+
+            // Function to merge PDF files
+            async function mergePDFs(pdfFiles) {
+                const mergedPdf = await PDFDocument.create();
+
+                for (const pdfBytes of pdfFiles) {
+                    const pdfDoc = await PDFDocument.load(pdfBytes);
+                    const pages = pdfDoc.getPages();
+
+                    for (const page of pages) {
+                        const copiedPage = await mergedPdf.copyPages(pdfDoc, [page]);
+                        mergedPdf.addPage(copiedPage[0]);
+                    }
+                }
+
+                const mergedPdfBytes = await mergedPdf.save();
+                return mergedPdfBytes;
+            }
+
+            // Function to download the merged PDF file
+            function downloadMergedPDF(pdfBytes) {
+                const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'merged.pdf';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }
+
+            // Fetch the RSS file and parse links
+            fetch(rssUrl)
+                .then(response => response.text())
+                .then(xml => {
+                    const links = parseRSS(xml);
+                    const pdfFiles = [];
+
+                    links.forEach(link => {
+                        fetch(link)
+                            .then(response => response.arrayBuffer())
+                            .then(pdfBytes => {
+                                pdfFiles.push(pdfBytes);
+                            })
+                            .catch(error => console.error('Failed to fetch PDF file:', error));
+                    });
+
+                    // Merge the downloaded PDF files
+                    mergePDFs(pdfFiles)
+                        .then(mergedPdfBytes => {
+                            // Download the merged PDF file
+                            downloadMergedPDF(mergedPdfBytes);
+                        })
+                        .catch(error => console.error('Failed to merge PDF files:', error));
+                })
+                .catch(error => console.error('Failed to fetch RSS file:', error));
+        }
+    </script>
+
+    <script src="https://cdn.skypack.dev/pdf-lib"></script>
+</body>
+</html>
