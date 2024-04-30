@@ -1,7 +1,7 @@
 Research
 ============
 
->Here you can find a list of my researches and scientific contributions.
+>Here you can find a list of my publications and scientific contributions.
 
 Thesis
 ------
