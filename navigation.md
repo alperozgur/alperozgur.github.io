@@ -3,12 +3,12 @@
 
 [Home](index.md)
 [About](about.md)
-[Works]()
+[Research]()
 
   * # Publications
   * [Thesis](pubs.md#Thesis)
   * [Articles](pubs.md#Articles)
-  * [Books](pubs.md#)
+  * [Guidelines](pubs.md#Guidelines)
   - - - -
   * # Presentations
   * [Oral Presentations](pubs.md#Oral_Presentations)
