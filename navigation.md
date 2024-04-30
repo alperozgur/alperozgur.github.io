@@ -24,4 +24,5 @@
   * [EJVES](ejves.md)
   - - - -
   * 
-[gimmick:themechooser](Choose theme)
+
+[gimmick:themechooser](Theme)
