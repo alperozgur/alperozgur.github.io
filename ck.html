@@ -30,8 +30,7 @@
                 let link = items[i].getElementsByTagName('link')[0].textContent;
         
                 // Replace "www.clinicalkey.com" with "www.google.com" in the link
-                link = link.replace("www.clinicalkey.com", "www.google.com");
-        
+                link = link.replace("/playContent/", "/service/content/pdf/watermarked/");
                 links.push({ title, link });
             }
         
