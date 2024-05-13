@@ -1,4 +1,4 @@
-# |- AOZ -| 
+# Alper Özgür
 
 [Home](index.md)
 [About](about.md)
@@ -24,5 +24,4 @@
   * # Calculators
   * [Villalta](tools/villalta.md)
 
-[gimmick:theme (inverse: true)](simplex)
-[gimmick:themechooser](Theme)
+[gimmick:theme](journal)
