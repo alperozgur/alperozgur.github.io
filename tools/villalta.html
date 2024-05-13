@@ -8,59 +8,58 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
     <body>
-    <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h4 class="card-title">Success card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
     <div class="container">
-        <h6 class="text-center mt-5">PTS Villalta Score Calculator</h6>
-        <div class="form-group">
-            <label for="pain">Pain:</label>
-            <select class="form-control" id="pain">
-                <option value="0">None</option>
-                <option value="1">Mild (with prolonged standing or walking)</option>
-                <option value="2">Moderate (interferes with normal activities)</option>
-                <option value="3">Severe (interferes with all activities)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="cramps">Cramps:</label>
-            <select class="form-control" id="cramps">
-                <option value="0">None</option>
-                <option value="1">Occasional</option>
-                <option value="2">Frequent (≥1/week)</option>
-                <option value="3">Daily</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="swelling">Swelling:</label>
-            <select class="form-control" id="swelling">
-                <option value="0">None</option>
-                <option value="1">Unilateral</option>
-                <option value="2">Bilateral</option>
-                <option value="3">Unilateral with venous collaterals</option>
-                <option value="4">Bilateral with venous collaterals</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="pigmentation">Pigmentation:</label>
-            <select class="form-control" id="pigmentation">
-                <option value="0">None</option>
-                <option value="1">Superficial (perimalleolar, up to 10 cm)</option>
-                <option value="2">Deep (diffuse or extending >10 cm)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="ulcer">Ulcer:</label>
-            <select class="form-control" id="ulcer">
-                <option value="0">None</option>
-                <option value="1">Present, healed</option>
-                <option value="2">Active</option>
-            </select>
-        </div>
+        <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+          <div class="card-header">Calculator</div>
+          <div class="card-body">
+            <h4 class="card-title">PTS Villalta Score Calculator</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <div class="form-group">
+                <label for="pain">Pain:</label>
+                <select class="form-control" id="pain">
+                    <option value="0">None</option>
+                    <option value="1">Mild (with prolonged standing or walking)</option>
+                    <option value="2">Moderate (interferes with normal activities)</option>
+                    <option value="3">Severe (interferes with all activities)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cramps">Cramps:</label>
+                <select class="form-control" id="cramps">
+                    <option value="0">None</option>
+                    <option value="1">Occasional</option>
+                    <option value="2">Frequent (≥1/week)</option>
+                    <option value="3">Daily</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="swelling">Swelling:</label>
+                <select class="form-control" id="swelling">
+                    <option value="0">None</option>
+                    <option value="1">Unilateral</option>
+                    <option value="2">Bilateral</option>
+                    <option value="3">Unilateral with venous collaterals</option>
+                    <option value="4">Bilateral with venous collaterals</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="pigmentation">Pigmentation:</label>
+                <select class="form-control" id="pigmentation">
+                    <option value="0">None</option>
+                    <option value="1">Superficial (perimalleolar, up to 10 cm)</option>
+                    <option value="2">Deep (diffuse or extending >10 cm)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ulcer">Ulcer:</label>
+                <select class="form-control" id="ulcer">
+                    <option value="0">None</option>
+                    <option value="1">Present, healed</option>
+                    <option value="2">Active</option>
+                </select>
+            </div>
+          </div>
+        </div>       
         <button class="btn btn-success btn-block mb-3" onclick="calculateScore()">Calculate Score</button>
         <p class="text-center">PTS Villalta Score: <span id="score">0</span></p>
     </div>
