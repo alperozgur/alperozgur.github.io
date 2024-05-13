@@ -10,9 +10,8 @@
     <body>
     <div class="container">
         <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-          <div class="card-header">Calculator</div>
+          <div class="card-header">PTS Villalta Score Calculator</div>
           <div class="card-body">
-            <h4 class="card-title">PTS Villalta Score Calculator</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              <div class="form-group">
                 <label for="pain">Pain:</label>
@@ -61,7 +60,12 @@
           </div>
         </div>       
         <button class="btn btn-success btn-block mb-3" onclick="calculateScore()">Calculate Score</button>
-        <p class="text-center">PTS Villalta Score: <span id="score">0</span></p>
+        <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+          <div class="card-header">PTS Villalta Score: </div>
+          <div class="card-body">
+            <p class="card-text"><span id="score">0</span></p>
+          </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS and jQuery (optional, only required if you need Bootstrap JavaScript features) -->
