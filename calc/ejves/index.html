@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest Issue: European Journal of Vascular & Endovascular Surgery</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    .rss-entry {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- h1 class="mt-5">Latest Issue: European Journal of Vascular & Endovascular Surgery</h1> -->
+    <div id="rss-feed"></div>
+  </div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script>
+    // Function to fetch and parse RSS feed
+    function fetchRSS(url) {
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(data, "text/xml");
+          const items = xml.querySelectorAll("item");
+          displayRSS(items);
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Function to display RSS content
+    function displayRSS(items) {
+      const rssFeedDiv = document.getElementById('rss-feed');
+
+      items.forEach(item => {
+        const title = item.querySelector('title').textContent;
+        const link = item.querySelector('link').textContent;
+
+        const rssEntry = document.createElement('div');
+        rssEntry.classList.add('rss-entry');
+
+        const titleElem = document.createElement('h4');
+        titleElem.textContent = title;
+
+        const downloadLink = document.createElement('a');
+        downloadLink.classList.add('btn', 'btn-primary');
+        downloadLink.textContent = 'Download';
+
+        // Modify the link URL
+        const modifiedLink = link.replace("/playContent/", "/service/content/pdf/watermarked/");
+        downloadLink.href = modifiedLink;
+        downloadLink.target = '_blank';
+        
+        rssEntry.appendChild(titleElem);
+        rssEntry.appendChild(downloadLink);
+
+        rssFeedDiv.appendChild(rssEntry);
+      });
+    }
+
+    // Fetch and display RSS feed when the page loads
+    window.onload = function() {
+      const rssFeedUrl = 'https://cdn.clinicalkey.com/rss/issue/10785884.xml';
+      fetchRSS(rssFeedUrl);
+    };
+  </script>
+</body>
+</html>
