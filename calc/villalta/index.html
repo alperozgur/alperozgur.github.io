@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS Villalta Score Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">PTS Villalta Score Calculator</h1>
+        <div class="form-group">
+            <label for="pain">Pain:</label>
+            <select class="form-control" id="pain">
+                <option value="0">None</option>
+                <option value="1">Mild (with prolonged standing or walking)</option>
+                <option value="2">Moderate (interferes with normal activities)</option>
+                <option value="3">Severe (interferes with all activities)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="cramps">Cramps:</label>
+            <select class="form-control" id="cramps">
+                <option value="0">None</option>
+                <option value="1">Occasional</option>
+                <option value="2">Frequent (≥1/week)</option>
+                <option value="3">Daily</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="swelling">Swelling:</label>
+            <select class="form-control" id="swelling">
+                <option value="0">None</option>
+                <option value="1">Unilateral</option>
+                <option value="2">Bilateral</option>
+                <option value="3">Unilateral with venous collaterals</option>
+                <option value="4">Bilateral with venous collaterals</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="pigmentation">Pigmentation:</label>
+            <select class="form-control" id="pigmentation">
+                <option value="0">None</option>
+                <option value="1">Superficial (perimalleolar, up to 10 cm)</option>
+                <option value="2">Deep (diffuse or extending >10 cm)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="ulcer">Ulcer:</label>
+            <select class="form-control" id="ulcer">
+                <option value="0">None</option>
+                <option value="1">Present, healed</option>
+                <option value="2">Active</option>
+            </select>
+        </div>
+        <button class="btn btn-primary btn-block mb-3" onclick="calculateScore()">Calculate Score</button>
+        <p class="text-center">PTS Villalta Score: <span id="score">0</span></p>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (optional, only required if you need Bootstrap JavaScript features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function calculateScore() {
+            var pain = parseInt(document.getElementById('pain').value);
+            var cramps = parseInt(document.getElementById('cramps').value);
+            var swelling = parseInt(document.getElementById('swelling').value);
+            var pigmentation = parseInt(document.getElementById('pigmentation').value);
+            var ulcer = parseInt(document.getElementById('ulcer').value);
+
+            var score = pain + cramps + swelling + pigmentation + ulcer;
+            document.getElementById('score').textContent = score;
+        }
+    </script>
+</body>
+</html>
