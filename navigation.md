@@ -24,5 +24,5 @@
   * # Calculators
   * [Villalta](tools/villalta.md)
 
-[gimmick:theme](journal)
+[gimmick:theme (inverse: true)](flatly)
 [gimmick:themechooser](Theme)
