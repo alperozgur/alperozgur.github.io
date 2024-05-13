@@ -20,7 +20,9 @@
 [Tools]()
 
   * # Reading
-  * [EJVES](ejves.md)
+  * [EJVES](tools/ejves.md)
+  * # Calculators
+  * [Villalta](tools/villalta.md)
 
 [gimmick:theme](journal)
 [gimmick:themechooser](Theme)
