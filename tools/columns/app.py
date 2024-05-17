@@ -60,9 +60,9 @@ def uppercase_to_subheader(content):
     for sentence in sentences:
         if sentence.isupper():
             # Uppercase sentence, convert to subheader
-            modified_content += f"\n\n## {sentence}\n\n"
+            modified_content += f"\n\n## {sentence.strip()}\n\n"
         else:
-            modified_content += sentence + " "
+            modified_content += sentence.strip() + " "
     return modified_content.strip()
 
 # Function to save content to markdown file
