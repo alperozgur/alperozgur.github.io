@@ -1,7 +1,6 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-import re
 
 # URL of Barış Terkoğlu's columns page
 url = "https://www.cumhuriyet.com.tr/yazarlar/baris-terkoglu"
@@ -45,30 +44,21 @@ def get_article_content(url):
     # Extract main article content
     content_div = soup.find('div', class_='haberMetni')
     if content_div:
-        content = content_div.text.strip()
+        content = content_div.get_text(separator='\n\n', strip=True)
     else:
         print(f"Content not found for {url}")
         return None, None
     
     return title, content
 
-# Function to convert uppercase sentences to Markdown subheaders
-def uppercase_to_subheader(content):
-    # Split content into sentences
-    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', content)
-    modified_content = ""
-    for sentence in sentences:
-        if sentence.isupper():
-            # Uppercase sentence, convert to subheader
-            modified_content += f"\n\n## {sentence.strip()}\n\n"
-        else:
-            modified_content += sentence.strip() + " "
-    return modified_content.strip()
+# Function to replace h3 tags with Markdown subheaders
+def replace_h3_with_subheader(content):
+    return content.replace('<h3', '##').replace('</h3>', '')
 
 # Function to save content to markdown file
 def save_article_to_md(title, content, index):
-    # Convert uppercase sentences to subheaders
-    content = uppercase_to_subheader(content)
+    # Replace h3 tags with Markdown subheaders
+    content = replace_h3_with_subheader(content)
     
     # Format filename
     filename = f"article_{index+1}.md"
