@@ -1,7 +1,6 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-import re
 
 # URL of Barış Terkoğlu's columns page
 url = "https://www.cumhuriyet.com.tr/yazarlar/baris-terkoglu"
@@ -52,24 +51,8 @@ def get_article_content(url):
     
     return title, content
 
-# Function to convert uppercase sentences to Markdown subheaders
-def uppercase_to_subheader(content):
-    # Split content into sentences
-    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', content)
-    modified_content = ""
-    for sentence in sentences:
-        if sentence.isupper():
-            # Uppercase sentence, convert to subheader
-            modified_content += f"\n\n## {sentence}\n\n"
-        else:
-            modified_content += sentence + " "
-    return modified_content.strip()
-
 # Function to save content to markdown file
 def save_article_to_md(title, content, index):
-    # Convert uppercase sentences to subheaders
-    content = uppercase_to_subheader(content)
-    
     # Format filename
     filename = f"article_{index+1}.md"
     with open(filename, 'w', encoding='utf-8') as f:
