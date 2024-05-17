@@ -76,32 +76,19 @@ def save_article_to_md(title, content, publishing_date):
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(f"# {title}\n\n{content}")
     print(f"Saved article to {filename}")
-    return filename
-
-# Function to create index file
-def create_index_file(article_files):
-    with open("index.md", "w", encoding="utf-8") as index_file:
-        index_file.write("# Article Index\n\n")
-        for article_file in article_files:
-            index_file.write(f"- [{article_file.split('.')[0]}]({article_file})\n")
 
 # Main function
 def main():
     soup = fetch_columns(url)
     article_links = get_article_links(soup)
-    article_files = []
 
     for index, link in enumerate(article_links):
         title, content, publishing_date = get_article_content(link)
         if title and content and publishing_date:
-            filename = save_article_to_md(title, content, publishing_date)
-            article_files.append(filename)
+            save_article_to_md(title, content, publishing_date)
             print(f"Processed {index + 1}/{len(article_links)}: {title}")
         else:
             print(f"Skipped article {index + 1}/{len(article_links)}: {link}")
-    
-    create_index_file(article_files)
-    print("Index file created.")
 
 if __name__ == "__main__":
     main()
