@@ -1,0 +1,26 @@
+# Ben ortada bir seçim görmüyorum
+
+Hükümet de kötüydü ezberci eğitim de... Ama “eski Türkiye” dedikleri dönemin düzenli işleyen iki işi vardı: Biri ÖSYM sınavları, öbürü siyasi seçim. İlkini FETÖ’ye çaldırdılar, öbürünü kendileri ortadan kaldırdılar. Sonunda seçimsiz ve sınavsız kaldık. 
+“Eski Türkiye”de seçimlere üç ay kala adalet, içişleri ve ulaştırma bakanları istifa ederdi. Yerlerine bağımsız bakanlar atanırdı. Sebebi hikmetliydi. Şartlar eşit olsun isteniyordu. 
+Öyle ya... İçişleri bakanı güvenliğini sağlayacak, adalet bakanı düzenini kuracak, ulaştırma bakanı ise birbirine bağlayacak. “Eski Türkiye” diyerek yasaları ortadan kaldırdılar. Şimdi bütün bakanlar, belediyeler için oy istiyor. Devletin arabasını, korumasını, salonlarını seçim için kullanıyor. 
+SEÇİM HAKİMİNDEN BİR MESAJ
+İşte “seçimlerin tarafsızlığı” ile ilgili enteresan bir hikâye uzun süredir çantamda bekliyor. 
+Önümde, Anadolu’nun bir şehrinde, yargı mensuplarının oluşturduğu WhatsApp grubu var. Biliyorsunuz, sandık kurullarını hâkimler oluşturuyor. İlçe seçim kurulu başkanı hâkimlerden biri, 24 Haziran 2018 seçimlerinin olduğu gün, meslektaşlarını, sözde “nelere dikkat edecekleri” konusunda uyarıyor. İkinci maddeyi aktarayım: “Sayımlar yapılırken her sandık başındaki İYİ Parti yani FETÖ görevlisi bu sonuçları seçim merkezine abartılı yollayacak.” Muhalefetin 24 Haziran’da sahte sonuçlarla sokağa döküleceğini söyleyen komplo teorileriyle dolu uyarı dizisi şöyle bitiyor: “Ve daha dehşet öngörümü söyleyeyim mi: Sokaklar karıştığında Erdoğan’a suikast ekibi devreye girecek. Bunlar en büyük planı 24 Haziran’a yaptılar.” 
+İlçe seçim kurulu başkanı söz konusu kadın hâkimin mesajını savcı olan eşi de paylaşmış. Hâkimin ve savcının işini nasıl yaptığı anlaşılıyor. 
+
+SEÇİME DOĞRU OPERASYON
+Evet, 24 Haziran seçimleri, sağ salim geçti. Söz konusu hâkim ve savcının, özetle “FETÖ’cü İYİ Parti kaos çıkaracak” uyarılarının gerçek olmadığı anlaşıldı. 
+Devamı var... 
+Bir yıl sonra 2019’da muhalefet, CHPİYİ Parti ittifakıyla yerel seçime gitti. CHP de İYİ Parti de bu sayede bazı belediyeleri kazandı. Bunlardan biri de İYİ Partili Ünal Çetin’in kazandığı Gökçeada Belediyesi idi. 
+Bu süreçte bir değişim daha oldu... 
+2021’deki mayıs kararnamesiyle; İYİ Parti’yi FETÖ’cü ilan eden, sandıklarda kaos çıkaracaklarını söyleyen hâkime hanım ve savcı eşi de Gökçeada’nın bağlı olduğu şehrin adliyesine atandı. Artık Çanakkale’de görev yapacaklardı. 
+Ve beklenen yaşandı... 
+2023 yılının mayıs seçimlerine aylar kala Türkiye, çeşitli belediyelere yapılan operasyonlarla sarsılıyordu. Kimi doğru kimi yalan... Ama seçime giderken belediye operasyonları yapma stratejisinin altında politik hedeflerin yattığı belliydi. 
+Mayıs seçimlerine 3.5 ay kala, Çanakkale Savcılığı, Gökçeada Belediyesi’ne operasyon yaptı. Belediye başkanı Çetin, yolsuzluk suçlamasıyla gözaltına alındı, ardından tutuklandı. Sadece o değil, partinin ilçe başkanı da “rüşvete aracılık” suçundan hapse atıldı. İçişleri bakanı da birkaç gün sonra belediye başkanını görevden aldı. 
+İYİ Partililer ayağa kalkmıştı. Söylediklerine göre böyle bir soruşturma yürütülse dahi yetkili olan Gökçeada’daki savcılıktı. Çanakkale Savcılığı nedense bu soruşturmayı kendisi yürütmüştü. İsimsiz bir ihbarla başlayan, tutuklamayı gerektirmeyecek bir suçlamayla tutuklamalar yapılan bu dosya, İYİ Parti’ye göre FETÖ usulleriyle hazırlanmıştı. 
+Başkan Çetin 5.5 ay sonra serbest kaldı. Ama başındaki Demokles kılıcını gören Çetin, “aday olsa kazanacağı” düşünülen 31 Mart seçiminde, İYİ Parti’nin ısrarına rağmen aday olmaktan vazgeçti. 
+MİLİTAN YARGIDA SEÇİM OLMAZ
+Yazının gelişinden tahmin ettiniz. Soruşturmanın içindeki yargı mensupları, hikâyenin başındaki mesajı paylaşan kişilerdi. 
+Gökçeada Belediye başkanı suçlu mu suçsuz mu bilmiyorum. Söylemek istediğim, seçim kurulu başkanıyken İYİ Parti’ye hakaretle tarafsızlık ihlal ediliyor, seçim sonrası ödül gibi tayin gerçekleşiyor, yeni görev yerinde de İYİ Parti’ye operasyon yapılıyor. Haliyle yargı ile siyaset birbirine karışıyor, adalet militanlaşıyor. 
+Türkiye yerel seçimlere giderken Yargıtay Başkanlığı seçimlerinin sekiz turdur sonuçlanmaması, Yargıtay üyelerinin bir kısmının cemaat-siyasetideolojik iltisaklarla oy kullanması bize tehlike sinyali vermiyor mu? Seçim; kurumların işlevli, iradenin özgür, propagandanın serbest olduğu koşullarda olur. Yargı mensuplarının militanlaştığı, TRT’den bakanlıklara devlet kurumlarının taraflaştığı, propagandanın imkânsızlaştığı koşullarda oy kullanılsa da fiilen ortada bir seçim yoktur. 
+Elini tutuyorlar, damgayı istedikleri yere vuruyorlar. Buna seçim diyorlar. Koşulları belirlemeden yapılan tercih, sonunda oy da verseniz, seçim değildir.
