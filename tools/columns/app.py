@@ -70,10 +70,11 @@ def get_article_content(url):
     return title, content, publishing_date
 
 # Function to save content to markdown file
-def save_article_to_md(title, content, publishing_date):
+def save_article_to_md(author_name, title, content, publishing_date):
     # Format filename with publishing date
     filename = f"{publishing_date.split('T')[0]}.md"
     with open(filename, 'w', encoding='utf-8') as f:
+        f.write(f"# Author: {author_name}\n\n")
         f.write(f"# {title}\n\n{content}")
     print(f"Saved article to {filename}")
     return filename, title
@@ -94,7 +95,7 @@ def main():
     for index, link in enumerate(article_links):
         title, content, publishing_date = get_article_content(link)
         if title and content and publishing_date:
-            filename, article_title = save_article_to_md(title, content, publishing_date)
+            filename, article_title = save_article_to_md("Barış Terkoğlu", title, content, publishing_date)
             article_files_and_titles.append((filename, article_title))
             print(f"Processed {index + 1}/{len(article_links)}: {title}")
         else:
