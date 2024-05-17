@@ -41,14 +41,6 @@ def get_article_content(url):
         print(f"Title not found for {url}")
         return None, None
     
-    # Extract publishing date
-    date_tag = soup.find('meta', {'name': 'dateModified'})
-    if date_tag and 'content' in date_tag.attrs:
-        publishing_date = date_tag['content']
-    else:
-        print(f"Publishing date not found for {url}")
-        return None, None
-    
     # Extract main article content
     content_div = soup.find('div', class_='haberMetni')
     if content_div:
@@ -67,12 +59,12 @@ def get_article_content(url):
         print(f"Content not found for {url}")
         return None, None
     
-    return title, content, publishing_date
+    return title, content
 
 # Function to save content to markdown file
-def save_article_to_md(title, content, publishing_date):
-    # Format filename with publishing date
-    filename = f"{publishing_date.split('T')[0]}.md"
+def save_article_to_md(title, content, index):
+    # Format filename
+    filename = f"article_{index+1}.md"
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(f"# {title}\n\n{content}")
     print(f"Saved article to {filename}")
@@ -83,9 +75,9 @@ def main():
     article_links = get_article_links(soup)
 
     for index, link in enumerate(article_links):
-        title, content, publishing_date = get_article_content(link)
-        if title and content and publishing_date:
-            save_article_to_md(title, content, publishing_date)
+        title, content = get_article_content(link)
+        if title and content:
+            save_article_to_md(title, content, index)
             print(f"Processed {index + 1}/{len(article_links)}: {title}")
         else:
             print(f"Skipped article {index + 1}/{len(article_links)}: {link}")
