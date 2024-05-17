@@ -73,8 +73,10 @@ def get_article_content(url):
 def save_article_to_md(author_name, title, content, publishing_date):
     # Format filename with publishing date
     filename = f"{publishing_date.split('T')[0]}.md"
+    pub_date = f"{publishing_date.split('T')[0]}"
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write(f"# Author: {author_name}\n\n")
+        f.write(f"# {author_name}\n\n")
+        f.write(f"### Yayımlanma tarihi: {pub_date}\n\n")
         f.write(f"# {title}\n\n{content}")
     print(f"Saved article to {filename}")
     return filename, title
