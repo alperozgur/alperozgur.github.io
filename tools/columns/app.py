@@ -44,22 +44,25 @@ def get_article_content(url):
     # Extract main article content
     content_div = soup.find('div', class_='haberMetni')
     if content_div:
-        content = content_div.get_text(separator='\n\n', strip=True)
+        # Find all paragraphs and h3 tags
+        paragraphs = content_div.find_all(['p', 'h3'])
+        content = ""
+        for tag in paragraphs:
+            # Check if it's a subheader
+            if tag.name == 'h3':
+                # Add subheader with appropriate Markdown formatting
+                content += f"\n## {tag.text.strip()}\n\n"
+            else:
+                # Add paragraph content
+                content += f"{tag.text.strip()}\n\n"
     else:
         print(f"Content not found for {url}")
         return None, None
     
     return title, content
 
-# Function to replace h3 tags with Markdown subheaders
-def replace_h3_with_subheader(content):
-    return content.replace('<h3', '##').replace('</h3>', '')
-
 # Function to save content to markdown file
 def save_article_to_md(title, content, index):
-    # Replace h3 tags with Markdown subheaders
-    content = replace_h3_with_subheader(content)
-    
     # Format filename
     filename = f"article_{index+1}.md"
     with open(filename, 'w', encoding='utf-8') as f:

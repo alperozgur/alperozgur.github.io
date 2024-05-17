@@ -1,22 +1,44 @@
 # Erdoğan için ihtar vakti
 
 Kurak toprakta çiçek yetişmez sanırsın. Oysa çatlamış toprakta bekleyen tohum, başını kaldırmak için gökteki damlayı bekler.
+
 Projeyi AKP’nin ağır toplarından Mustafa Şentop açıklamıştı. Birkaç gün önce, 31 Mart’ı nasıl gördüklerini anlatmıştı: “Bu seçimle beraber Türkiye’de bir dönem kapanacak. Ne olacak? Yeni sistemle beraber 2018 seçimlerinden sonra başlatmış olduğumuz süreç Türkiye’de yerleşmiş olacak.”
+
 Seçimi AKP kazansaydı varacakları sonuç buydu. Mart seçimlerini mayısın devamı olarak görüyorlardı. 2017’de başlayan başkanlık rejiminin oturduğunu, halkın sistemi kabullendiğini söyleyeceklerdi. Hatta daha da ileri gideceklerdi.
+
 Rejimin niteliği dahil ne çok şeyi tartışacaklardı... Yeni anayasa yapılacak, sistemin temel taşları yeniden döşenecekti. Erdoğan iktidarının sonsuzluğunun dört yıla yayılmış resmi çizilmeye başlanacaktı.
+
 Ancak...
+
 31 Mart seçimleri Erdoğan’ın iktidarına vurulmuş en büyük darbe oldu. Halk, sadece 10 ay önce ülkeyi düze çıkarmak için bütün yetkileri isteyen Erdoğan’a, 10 ay sonra “Hayır” dedi.
+
 Mesele 10 aday, 20 bölge, 30 şehir meselesi değil. Ülkenin kırmızıya boyanmış haritası bize halkın bir karar verdiğini söylüyor. Halk; boşalan cebinin, kaynamayan tenceresinin, karartılan geleceğinin hesabını kesmeye karar verdi. Kendisine en yakın, en görünür protesto tercihini yaptı. Hemen her bölgede “Erdoğan’a dur” diyeceği seçeneklere yöneldi.
-'TOPAL ÖRDEK' ERDOĞAN
+
+
+## 'TOPAL ÖRDEK' ERDOĞAN
+
 Evet, cumhurbaşkanı o. Bakanlar Kurulu onun dudaklarının ucunda. Orduyu, polisi, bürokrasiyi o belirliyor. Ülkenin ekonomisini, siyasetini hatta sporunu o şekillendiriyor.
+
 Ama Erdoğan artık kelimenin tam anlamıyla “topal ördek”. İfade, ABD başkanlarının kongreyi kaybettiği, haliyle sistem içindeki itiraz nedeniyle bir bacağının kısa kaldığı durumu anlatıyor.
+
 Benzerliğin ise bir nedeni var. Türkiye’de son yıllarda sistemde kritik bir değişim oldu. İstiklal Savaşı döneminde başkomutanını konuşarak seçmiş, toprak kanunlarını tartışarak yazmış Meclis işlevsizleşti. Erdoğan’ın elinde bir aparata dönüştü. Siyasetçilere devlet dersi veren bürokrasi piyonlaştı. Kurumlar geleneklerinden, kurallı işleyişten arındırıldı. Yargı, anayasayı bile tanımayacak kadar emir eri haline geldi. Haliyle, böyle bir işlevi olmadığı halde, sistemin içindeki tek itiraz noktası yerel idareler haline geldi. Halk da Erdoğan’a 10 ay sonra bu itiraz noktası üzerinden net, açık, anlaşılır bir mesaj verdi. Her şeyi yönetmeye muktedir görünen Erdoğan’ın altındaki halıyı çekip aldı. Onu 10 ayda “istenmeyen adam” haline getirdi. Kaybeden sadece Murat Kurum, Turgut Altınok ya da Hamza Dağ değil. Erdoğan’ın kendisi, yönetme şekli, hesap vermezliği, sorumsuzluğu kaybetti.
-ERDOĞAN BİR KARAR VERECEK
+
+
+## ERDOĞAN BİR KARAR VERECEK
+
 Artık ortada çok somut bir mesele var. Sandık başındayken, “Dört yıl seçim yok” diyerek 2028’e kadar önünün dümdüz olduğunu söyleyen yorgun Erdoğan, Türkiye’yi bu şekilde yönetemez.
+
 Önünde iki seçenek var...
+
 Ya kendisini bu noktaya taşıyan siyasette ısrar edecek. Su kaçıran musluğu daha da sıkarak contayı tamir ettiğini sanacak. Yaşadığı çöküşü ülke için yıkıma çevirecek.
+
 Ya da halkın attığı yumruktan ders çıkaracak. Kendisine “Yeter!” diyen mesajı alacak. Sistemi artık kendi üzerine kurmaktan vazgeçecek. Elbette bu kaybın bedelini MHP’ye de ödetecek. Cumhur İttifakı ile gideceği yolun sonuna geldiğini görecek.
+
 Halk yalnız iktidara değil muhalefete de bir mesaj verdi...
+
 Bu sonuçlar, 10 ay önceki seçim sonuçlarından geleceğe yönelik büyük yenilgi çıkarmaya çalışan muhalefetin bir kesiminin de tasfiyesini hazırlıyor. Onlar için de deniz bitti.
+
 28 Mayıs gecesi sandığa giden yüzde 48, eskisi gibi yönetilmek istemiyordu. Yüzde 52’nin önemli bölümü ise eskiden hoşnutsuz olsa da yeni bir düzene güvensizlik duyuyordu. 10 ay boyunca Türkiye’de birikmiş enerji yok edilmeye çalışıldı. Yan yana gelmiş kitleler parçalanarak Türkiye muhalefetsiz bırakılmak istendi. Ancak dün gece en büyük muhalefetin halkın kendisi olduğu bir kez daha görüldü. En beklenmedik anda sahneye çıkan halk, Türk siyasetine yeni bir yol açtı.
+
 Şimdi fısıltıyla söyleneni duymak, karmaşık olanı anlamak, gözden kaçanı görmek zamanı. Umut hep halkın kendisiydi. Halk kendi umudunu kendi doğurdu. Toprağa düşen damla bilsin, o mavi gökten boşuna vazgeçmedin.
+
