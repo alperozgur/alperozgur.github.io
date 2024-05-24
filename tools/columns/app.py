@@ -59,7 +59,7 @@ def get_article_content(url):
             # Check if it's a subheader
             if tag.name == 'h3':
                 # Add subheader with appropriate Markdown formatting
-                content += f"\n## {tag.text.strip()}\n\n"
+                content += f"\n### {tag.text.strip()}\n\n"
             else:
                 # Add paragraph content
                 content += f"{tag.text.strip()}\n\n"

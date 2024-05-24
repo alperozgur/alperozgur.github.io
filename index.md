@@ -1,5 +1,17 @@
-Welcome!
-=======
+# Barış Terkoğlu
 
-Welcome to my personal webpage where you can find information about me. Select a page from menu to navigate in the page.
-[About](about.md) page have detailed information about my education and experience. You can have a look at [Research](research.md) page for a list of publications and my contributions to the science community. [Tools](tools.md) page have a list of tools which i daily use including little software and calculators that i write.
+- [Güle güle terörist!](2024-05-23.md)
+- [Yok artık daha neler göreceğiz](2024-05-20.md)
+- [Darbe mi yoksa darbe bahane mi?](2024-05-16.md)
+- [Adalet mafyanın temelidir!](2024-05-13.md)
+- [Tepedekilerin ölüm dağıtan çocukları](2024-05-09.md)
+- [Yaptım, yapıyorum, yine yapacağım!](2024-05-06.md)
+- [Erdoğan’ın ‘görüşmeyin’ dediği lider](2024-05-02.md)
+- [Ölen yine öldüğüyle kaldı](2024-04-29.md)
+- [Uğur Dündar’ın babalık davası](2024-04-25.md)
+- [Erdoğan görevi bırakmalı](2024-04-22.md)
+- [Baskın yapılan evden çıkan hâkim](2024-04-18.md)
+- [İsmi lazım değil!](2024-04-15.md)
+- [Az kalsın bütün Beyoğlu elden gidiyormuş!](2024-04-11.md)
+- [Menzil de yenildi İsmailağa da](2024-04-08.md)
+- [Atı alan Van’ı geçemedi](2024-04-04.md)
