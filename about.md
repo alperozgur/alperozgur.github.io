@@ -58,14 +58,14 @@ Doctor of Medicine - MD, Medicine
 
 >Here you can find a list of my publications and scientific contributions.
 
-Thesis
-------
+### Thesis
+
 | Title | Link |
 | ----- | ---- |
 | Minimally Invasive Cardiac Surgery: Our Experience| [`Link`](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN)|
 
-Articles
---------
+### Articles
+
 | Title | Journal | Authors | Year | Link |
 | ----- | ------- | ------- | ---- | ---- |
 | An experience in the COVID-19 pandemic period: Turkish Cardiovascular Surgery Online Board Exam 2020 | [Turk Gogus Kalp Damar Cerrahisi Dergisi](https://tgkdc.dergisi.org) | *Şahin H, `Özgür A`, Paker T, Atay Y* | 2022| [Link](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_3554.pdf)|
@@ -73,25 +73,21 @@ Articles
 | A Retrospective Analysis of Surgical Femoral Artery Closure Techniques: Conventional versus Purse Suture Technique | [Annals of Vascular Surgery](https://www.annalsofvascularsurgery.com) | *Cakici M, Yazicioglu L, Baran C, Ozcinar E, `Özgür A`, Soykan C, Eryilmaz S, Bilgic S, Kaya B, Akar AR*  | 2017 |[Link](https://www.annalsofvascularsurgery.com/action/showPdf?pii=S0890-5096%2816%2930775-0)|
 | The role of C-reactive protein on detection of postoperative atrial fibrillation in cardiac surgery: a systematic review and meta-analysis | [Turk Gogus Kalp Damar Cerrahisi Dergisi](https://tgkdc.dergisi.org) | *Öztürk S, Öztürk İ, İlhan S, `Özgür A`* | 2015 | [Link](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_2179.pdf)|
 
-Guidelines
-----------
-
-Oral Presentations
-------------------
-
-Poster Presentations
---------------------
-
-Congress Participations
------------------------
-
-Course Participations
----------------------
+### Guidelines
 
 
+### Oral Presentations
 
-Social media
-------------
+
+### Poster Presentations
+
+
+### Congress Participations
+
+
+### Course Participations
+
+### Social media
 
 You can follow me on my social media accounts: 
 [![Facebook](/assets/ico/facebook.svg)](http://www.facebook.com)
