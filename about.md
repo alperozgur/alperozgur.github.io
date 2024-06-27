@@ -73,17 +73,14 @@ Doctor of Medicine - MD, Medicine
 | A Retrospective Analysis of Surgical Femoral Artery Closure Techniques: Conventional versus Purse Suture Technique | [Annals of Vascular Surgery](https://www.annalsofvascularsurgery.com) | *Cakici M, Yazicioglu L, Baran C, Ozcinar E, `Özgür A`, Soykan C, Eryilmaz S, Bilgic S, Kaya B, Akar AR*  | 2017 |[Link](https://www.annalsofvascularsurgery.com/action/showPdf?pii=S0890-5096%2816%2930775-0)|
 | The role of C-reactive protein on detection of postoperative atrial fibrillation in cardiac surgery: a systematic review and meta-analysis | [Turk Gogus Kalp Damar Cerrahisi Dergisi](https://tgkdc.dergisi.org) | *Öztürk S, Öztürk İ, İlhan S, `Özgür A`* | 2015 | [Link](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_2179.pdf)|
 
-### Guidelines
 
+### Guidelines  
 
 ### Oral Presentations
 
-
 ### Poster Presentations
 
-
 ### Congress Participations
-
 
 ### Course Participations
 
