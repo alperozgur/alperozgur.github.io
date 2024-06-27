@@ -6,24 +6,25 @@
 
 ### Experience
 
-Universityhospital of Northern Sweden
-Vascular Surgeon
-August 2023 - Present (11 months)
-Umeå, Västerbotten, Sweden
+**Universityhospital of Northern Sweden**  
+Vascular Surgeon  
+August 2023 - Present (11 months)  
+*Umeå, Västerbotten, Sweden*  
 
-Memorial Healthcare Group
-Cardiovascular Surgeon
-May 2022 - August 2023 (1 year 4 months)
-Ankara, Turkiet
+**Memorial Healthcare Group**  
+Cardiovascular Surgeon  
+May 2022 - August 2023 (1 year 4 months)  
+*Ankara, Türkiye*  
 
-Güven Sağlık Grubu
-Cardiovascular Surgeon
-May 2021 - June 2022 (1 year 2 months)
-Ankara, Türkiye
+**Güven Sağlık Grubu**  
+Cardiovascular Surgeon  
+May 2021 - June 2022 (1 year 2 months)  
+*Ankara, Türkiye*
 
-Yozgat City Hospital
-Cardiovascular Surgeon
-November 2017 - May 2021 (3 years 7 months)
+**Yozgat City Hospital**  
+Cardiovascular Surgeon  
+November 2017 - May 2021 (3 years 7 months)  
+*Yozgat, Türkiye*  
 
 ### Education
 Ankara University
