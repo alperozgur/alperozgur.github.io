@@ -90,4 +90,4 @@ Doctor of Medicine - MD, Medicine
 ### Social media
 
 You can follow me on my social media accounts: 
-[![Facebook](/assets/ico/facebook.svg)](http://www.facebook.com)
+[Facebook](http://www.facebook.com)
