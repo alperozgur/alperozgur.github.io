@@ -1,6 +1,43 @@
-# About Me
+# Alper Ozgur
+## Cardiovascular Surgeon
+### Umeå, Västerbotten County, Sweden
 
-My name is Alper Özgür. I'm a cardiovascular surgeon.
+### Experience
+
+Universityhospital of Northern Sweden
+Vascular Surgeon
+August 2023 - Present (11 months)
+Umeå, Västerbotten, Sweden
+
+Memorial Healthcare Group
+Cardiovascular Surgeon
+May 2022 - August 2023 (1 year 4 months)
+Ankara, Turkiet
+
+Güven Sağlık Grubu
+Cardiovascular Surgeon
+May 2021 - June 2022 (1 year 2 months)
+Ankara, Türkiye
+
+Yozgat City Hospital
+Cardiovascular Surgeon
+November 2017 - May 2021 (3 years 7 months)
+
+### Education
+Ankara University
+Cardiovascular Surgery Residency Program · (January 2014 - November 2017)
+
+Dışkapı Yıldırım Beyazıt Research Hospital
+Cardiovascular Surgery Residency Program · (January 2012 - January 2014)
+
+Cukurova University
+Doctor of Medicine - MD, Medicine · (2003 - 2009)
+
+Universitat de Lleida
+Doctor of Medicine - MD, Medicine · (2007 - 2008)
+
+Rīga Stradiņš University
+Doctor of Medicine - MD, Medicine · (2006 - 2006)
 
 ## Research
 
