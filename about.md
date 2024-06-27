@@ -28,7 +28,7 @@ November 2017 - May 2021 (3 years 7 months)
 
 ### Education
 
-**Ankara University**
+**Ankara University**  
 Cardiovascular Surgery Residency Program  
 January 2014 - November 2017  
 *Ankara, Türkiye*
@@ -38,7 +38,7 @@ Cardiovascular Surgery Residency Program
 January 2012 - January 2014  
 *Ankara, Türkiye*
 
-**Cukurova University**
+**Cukurova University**  
 Doctor of Medicine - MD, Medicine  
 2003 - 2009  
 *Adana, Türkiye*
