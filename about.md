@@ -1,8 +1,8 @@
 # Alper Ozgur
 
-## Cardiovascular Surgeon
+## Cardiovascular Surgeon
 
-### Umeå, Västerbotten County, Sweden
+### Umeå, Västerbotten County, Sweden
 
 ### Experience
 
