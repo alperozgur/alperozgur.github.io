@@ -2,7 +2,7 @@
 
 ## Cardiovascular Surgeon
 
-### Umeå, Västerbotten County, Sweden
+***Umeå, Västerbotten County, Sweden***
 
 ### Experience
 
@@ -27,20 +27,32 @@ November 2017 - May 2021 (3 years 7 months)
 *Yozgat, Türkiye*  
 
 ### Education
-Ankara University
-Cardiovascular Surgery Residency Program · (January 2014 - November 2017)
 
-Dışkapı Yıldırım Beyazıt Research Hospital
-Cardiovascular Surgery Residency Program · (January 2012 - January 2014)
+**Ankara University**
+Cardiovascular Surgery Residency Program  
+January 2014 - November 2017  
+*Ankara, Türkiye*
 
-Cukurova University
-Doctor of Medicine - MD, Medicine · (2003 - 2009)
+**Dışkapı Yıldırım Beyazıt Research Hospital**  
+Cardiovascular Surgery Residency Program  
+January 2012 - January 2014  
+*Ankara, Türkiye*
 
-Universitat de Lleida
-Doctor of Medicine - MD, Medicine · (2007 - 2008)
+**Cukurova University**
+Doctor of Medicine - MD, Medicine  
+2003 - 2009  
+*Adana, Türkiye*
 
-Rīga Stradiņš University
-Doctor of Medicine - MD, Medicine · (2006 - 2006)
+**Universitat de Lleida**  
+Doctor of Medicine - MD, Medicine  
+2007 - 2008  
+*Lleida, Spain*
+
+**Rīga Stradiņš University**  
+Doctor of Medicine - MD, Medicine  
+2006 - 2006  
+*Riga - Latvia*
+
 
 ## Research
 
