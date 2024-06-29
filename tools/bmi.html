@@ -42,16 +42,16 @@
 
                 if (bmi < 18.5) {
                     resultText += ' (Underweight)';
-                    resultColor = 'text-warning';
+                    resultColor = 'bg-warning';
                 } else if (bmi >= 18.5 && bmi < 24.9) {
                     resultText += ' (Normal weight)';
-                    resultColor = 'text-success';
+                    resultColor = 'bg-success';
                 } else if (bmi >= 25 && bmi < 29.9) {
                     resultText += ' (Overweight)';
-                    resultColor = 'text-warning';
+                    resultColor = 'bg-warning';
                 } else {
                     resultText += ' (Obese)';
-                    resultColor = 'text-danger';
+                    resultColor = 'bg-danger';
                 }
 
                 document.getElementById('result').innerHTML = '<span class="' + resultColor + '">' + resultText + '</span>';
