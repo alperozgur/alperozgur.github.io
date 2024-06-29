@@ -6,6 +6,9 @@
 
   * [Venous Diseases](content/venous.md)
 
-[Tools](tools.md)
+[Tools]()
+
+  * [BMI Calculator](tools/bmi.md)
+  * [Villalta Calculator](tools/villalta.md)
 
 [gimmick:theme](journal)
