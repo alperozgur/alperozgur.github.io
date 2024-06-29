@@ -18,7 +18,7 @@
                             <input type="number" class="form-control" id="weight" placeholder="Enter weight">
                         </div>
                         <div class="form-group">
-                            <label for="height">Height in meters:</label>
+                            <label for="height">Height in cm:</label>
                             <input type="number" class="form-control" id="height" placeholder="Enter height">
                         </div>
                         <button class="btn btn-primary btn-block" onclick="calculateBMI()">Calculate BMI</button>
@@ -32,10 +32,11 @@
     <script>
         function calculateBMI() {
             let weight = document.getElementById('weight').value;
-            let height = document.getElementById('height').value;
-
-            if (weight > 0 && height > 0) {
-                let bmi = weight / (height * height);
+            let heightInCm = document.getElementById('height').value;
+            
+            if (weight > 0 && heightInCm > 0) {
+                let heightInMeters = heightInCm / 100;
+                let bmi = weight / (heightInMeters * heightInMeters);
                 document.getElementById('result').innerText = 'Your BMI is ' + bmi.toFixed(2);
             } else {
                 document.getElementById('result').innerText = 'Please enter valid weight and height';
