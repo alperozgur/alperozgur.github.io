@@ -37,7 +37,24 @@
             if (weight > 0 && heightInCm > 0) {
                 let heightInMeters = heightInCm / 100;
                 let bmi = weight / (heightInMeters * heightInMeters);
-                document.getElementById('result').innerText = 'Your BMI is ' + bmi.toFixed(2);
+                let resultText = 'Your BMI is ' + bmi.toFixed(2);
+                let resultColor = '';
+
+                if (bmi < 18.5) {
+                    resultText += ' (Underweight)';
+                    resultColor = 'text-warning';
+                } else if (bmi >= 18.5 && bmi < 24.9) {
+                    resultText += ' (Normal weight)';
+                    resultColor = 'text-success';
+                } else if (bmi >= 25 && bmi < 29.9) {
+                    resultText += ' (Overweight)';
+                    resultColor = 'text-warning';
+                } else {
+                    resultText += ' (Obese)';
+                    resultColor = 'text-danger';
+                }
+
+                document.getElementById('result').innerHTML = '<span class="' + resultColor + '">' + resultText + '</span>';
             } else {
                 document.getElementById('result').innerText = 'Please enter valid weight and height';
             }
