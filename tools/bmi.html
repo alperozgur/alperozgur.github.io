@@ -4,58 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .container h1 {
-            margin-bottom: 20px;
-            font-size: 24px;
-        }
-        .container input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .container button {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            background-color: #007bff;
-            color: #fff;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .container button:hover {
-            background-color: #0056b3;
-        }
-        .result {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-    </style>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
     <div class="container">
-        <h1>BMI Calculator</h1>
-        <input type="number" id="weight" placeholder="Weight in kg">
-        <input type="number" id="height" placeholder="Height in meters">
-        <button onclick="calculateBMI()">Calculate BMI</button>
-        <div class="result" id="result"></div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h1 class="card-title text-center">BMI Calculator</h1>
+                        <div class="form-group">
+                            <label for="weight">Weight in kg:</label>
+                            <input type="number" class="form-control" id="weight" placeholder="Enter weight">
+                        </div>
+                        <div class="form-group">
+                            <label for="height">Height in meters:</label>
+                            <input type="number" class="form-control" id="height" placeholder="Enter height">
+                        </div>
+                        <button class="btn btn-primary btn-block" onclick="calculateBMI()">Calculate BMI</button>
+                        <div class="result mt-3 text-center" id="result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
