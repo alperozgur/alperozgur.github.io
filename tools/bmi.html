@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Kalkylator</title>
+    <title>BMI Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
         }
-        h1 {
-			font-size: 24px;
-		}
+
         #resultCard {
             color: white;
         }
@@ -23,21 +21,21 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h1>BMI Kalkylator</h1>
+                        <h1>BMI Calculator</h1>
                     </div>
                     <div class="card-body">
                         <form id="bmiForm">
                             <div class="mb-3">
-                                <label for="weight" class="form-label">Vikt (kg)</label>
-                                <input type="number" class="form-control" id="weight" placeholder="Ange din vikt i kg" required>
+                                <label for="weight" class="form-label">Weight (kg)</label>
+                                <input type="number" class="form-control" id="weight" placeholder="Enter your weight in kg" required>
                             </div>
 
                             <div class="mb-3">
-                                <label for="height" class="form-label">Längd (cm)</label>
-                                <input type="number" class="form-control" id="height" placeholder="Ange din längd i cm" required>
+                                <label for="height" class="form-label">Height (cm)</label>
+                                <input type="number" class="form-control" id="height" placeholder="Enter your height in cm" required>
                             </div>
 
-                            <button type="button" class="btn btn-primary w-100" onclick="calculateBMI()">Beräkna BMI</button>
+                            <button type="button" class="btn btn-primary w-100" onclick="calculateBMI()">Calculate BMI</button>
                         </form>
 
                         <div class="mt-4">
@@ -53,34 +51,34 @@
 
     <script>
         function calculateBMI() {
-            // Hämta vikt och längd från formuläret
+            // Get weight and height from the form
             let weight = parseFloat(document.getElementById('weight').value);
-            let height = parseFloat(document.getElementById('height').value) / 100; // Omvandla cm till meter
+            let height = parseFloat(document.getElementById('height').value) / 100; // Convert cm to meters
 
-            // Beräkna BMI
+            // Calculate BMI
             let bmi = weight / (height * height);
 
-            // Hämta resultatkortet och textinnehållet
+            // Get the result card and text
             let resultCard = document.getElementById('resultCard');
             let resultText = document.getElementById('result');
 
-            // Baserat på BMI, ändra färg och text
+            // Display result based on BMI value
             if (bmi < 18.5) {
                 resultCard.classList.remove('d-none', 'bg-warning', 'bg-success', 'bg-danger');
                 resultCard.classList.add('bg-warning');
-                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du är underviktig.`;
+                resultText.innerText = `Your BMI is ${bmi.toFixed(1)}. You are underweight.`;
             } else if (bmi >= 18.5 && bmi < 24.9) {
                 resultCard.classList.remove('d-none', 'bg-warning', 'bg-danger');
                 resultCard.classList.add('bg-success');
-                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du har en normalvikt.`;
+                resultText.innerText = `Your BMI is ${bmi.toFixed(1)}. You are at a normal weight.`;
             } else if (bmi >= 25 && bmi < 29.9) {
                 resultCard.classList.remove('d-none', 'bg-success', 'bg-danger');
                 resultCard.classList.add('bg-warning');
-                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du är överviktig.`;
+                resultText.innerText = `Your BMI is ${bmi.toFixed(1)}. You are overweight.`;
             } else {
                 resultCard.classList.remove('d-none', 'bg-warning', 'bg-success');
                 resultCard.classList.add('bg-danger');
-                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du har fetma.`;
+                resultText.innerText = `Your BMI is ${bmi.toFixed(1)}. You have obesity.`;
             }
         }
     </script>
