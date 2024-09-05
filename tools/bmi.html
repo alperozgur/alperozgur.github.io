@@ -1,28 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>BMI Kalkylator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        #resultCard {
+            color: white;
+        }
+    </style>
 </head>
-<body class="bg-light">
-    <div class="container">
+<body>
+    <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <div class="card mt-5">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h1>BMI Kalkylator</h1>
+                    </div>
                     <div class="card-body">
-                        <h1 class="card-title text-center">BMI Calculator</h1>
-                        <div class="form-group">
-                            <label for="weight">Weight in kg:</label>
-                            <input type="number" class="form-control" id="weight" placeholder="Enter weight">
+                        <form id="bmiForm">
+                            <div class="mb-3">
+                                <label for="weight" class="form-label">Vikt (kg)</label>
+                                <input type="number" class="form-control" id="weight" placeholder="Ange din vikt i kg" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="height" class="form-label">Längd (cm)</label>
+                                <input type="number" class="form-control" id="height" placeholder="Ange din längd i cm" required>
+                            </div>
+
+                            <button type="button" class="btn btn-primary w-100" onclick="calculateBMI()">Beräkna BMI</button>
+                        </form>
+
+                        <div class="mt-4">
+                            <div id="resultCard" class="card text-center d-none">
+                                <div id="result" class="card-body fw-bold"></div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="height">Height in cm:</label>
-                            <input type="number" class="form-control" id="height" placeholder="Enter height">
-                        </div>
-                        <button class="btn btn-primary btn-block" onclick="calculateBMI()">Calculate BMI</button>
-                        <div class="result mt-3 text-center" id="result"></div>
                     </div>
                 </div>
             </div>
@@ -31,34 +51,37 @@
 
     <script>
         function calculateBMI() {
-            let weight = document.getElementById('weight').value;
-            let heightInCm = document.getElementById('height').value;
-            
-            if (weight > 0 && heightInCm > 0) {
-                let heightInMeters = heightInCm / 100;
-                let bmi = weight / (heightInMeters * heightInMeters);
-                let resultText = 'Your BMI is ' + bmi.toFixed(2);
-                let resultColor = '';
+            // Hämta vikt och längd från formuläret
+            let weight = parseFloat(document.getElementById('weight').value);
+            let height = parseFloat(document.getElementById('height').value) / 100; // Omvandla cm till meter
 
-                if (bmi < 18.5) {
-                    resultText += ' (Underweight)';
-                    resultColor = 'bg-warning';
-                } else if (bmi >= 18.5 && bmi < 24.9) {
-                    resultText += ' (Normal weight)';
-                    resultColor = 'bg-success';
-                } else if (bmi >= 25 && bmi < 29.9) {
-                    resultText += ' (Overweight)';
-                    resultColor = 'bg-warning';
-                } else {
-                    resultText += ' (Obese)';
-                    resultColor = 'bg-danger';
-                }
+            // Beräkna BMI
+            let bmi = weight / (height * height);
 
-                document.getElementById('result').innerHTML = '<span class="' + resultColor + '">' + resultText + '</span>';
+            // Hämta resultatkortet och textinnehållet
+            let resultCard = document.getElementById('resultCard');
+            let resultText = document.getElementById('result');
+
+            // Baserat på BMI, ändra färg och text
+            if (bmi < 18.5) {
+                resultCard.classList.remove('d-none', 'bg-warning', 'bg-success', 'bg-danger');
+                resultCard.classList.add('bg-warning');
+                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du är underviktig.`;
+            } else if (bmi >= 18.5 && bmi < 24.9) {
+                resultCard.classList.remove('d-none', 'bg-warning', 'bg-danger');
+                resultCard.classList.add('bg-success');
+                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du har en normalvikt.`;
+            } else if (bmi >= 25 && bmi < 29.9) {
+                resultCard.classList.remove('d-none', 'bg-success', 'bg-danger');
+                resultCard.classList.add('bg-warning');
+                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du är överviktig.`;
             } else {
-                document.getElementById('result').innerText = 'Please enter valid weight and height';
+                resultCard.classList.remove('d-none', 'bg-warning', 'bg-success');
+                resultCard.classList.add('bg-danger');
+                resultText.innerText = `Ditt BMI är ${bmi.toFixed(1)}. Du har fetma.`;
             }
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
