@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wells Score Kalkylator</title>
+    <title>Wells Score Calculator for DVT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-		body {
-		background-color: #f8f9fa;
-		}
-
-		h1 {
-			font-size: 24px;
-		}
-
-		#result {
-			font-size: 18px;
-			color: #333;
-		}
+        body {
+            background-color: #f8f9fa;
+        }
+	h1 {
+		font-size: 24px;
+	}
+        #resultCard {
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -26,51 +23,77 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h1>Wells Score Kalkylator för DVT</h1>
+                        <h1>Wells Score Calculator for DVT</h1>
                     </div>
                     <div class="card-body">
                         <form id="wellsForm">
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="cancer" value="1">
-                                <label class="form-check-label" for="cancer">Aktiv cancer (inom de senaste 6 månaderna eller palliativ behandling)</label>
+                            <!-- Wells Score Criteria -->
+                            <h5>Select the criteria that apply to the patient:</h5>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="cancer">
+                                <label class="form-check-label" for="cancer">
+                                    Active cancer (treatment within the last 6 months or palliative care) (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="immobilisering" value="1">
-                                <label class="form-check-label" for="immobilisering">Immobilisering eller nyligen sängliggande (>3 dagar) eller stor kirurgi inom 12 veckor</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="paralysis">
+                                <label class="form-check-label" for="paralysis">
+                                    Paralysis, paresis, or recent plaster immobilization of the lower extremities (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="ömhet" value="1">
-                                <label class="form-check-label" for="ömhet">Ömhet längs djupa venernas väg</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="bedridden">
+                                <label class="form-check-label" for="bedridden">
+                                    Recently bedridden for 3+ days or major surgery within 12 weeks requiring general/regional anesthesia (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="svullnad" value="1">
-                                <label class="form-check-label" for="svullnad">Svullnad i hela benet</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="tenderness">
+                                <label class="form-check-label" for="tenderness">
+                                    Localized tenderness along the distribution of the deep venous system (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="vadsvullnad" value="1">
-                                <label class="form-check-label" for="vadsvullnad">Vadsvullnad >3 cm jämfört med andra benet</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="swelling">
+                                <label class="form-check-label" for="swelling">
+                                    Entire leg swollen (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="ödem" value="1">
-                                <label class="form-check-label" for="ödem">Pittingödem endast i det symtomatiska benet</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="calfSwelling">
+                                <label class="form-check-label" for="calfSwelling">
+                                    Calf swelling by more than 3 cm compared to the asymptomatic leg (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="tidigareDVT" value="1">
-                                <label class="form-check-label" for="tidigareDVT">Tidigare dokumenterad DVT</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="pittingEdema">
+                                <label class="form-check-label" for="pittingEdema">
+                                    Pitting edema confined to the symptomatic leg (+1)
+                                </label>
                             </div>
 
-                            <div class="form-check mb-3">
-                                <input type="checkbox" class="form-check-input" id="alternativDiagnos" value="-2">
-                                <label class="form-check-label" for="alternativDiagnos">Alternativ diagnos minst lika sannolik som DVT</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="collateral">
+                                <label class="form-check-label" for="collateral">
+                                    Collateral superficial veins (non-varicose) (+1)
+                                </label>
                             </div>
 
-                            <button type="button" class="btn btn-primary w-100" onclick="calculateScore()">Beräkna Wells Score</button>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="alternativeDiagnosis">
+                                <label class="form-check-label" for="alternativeDiagnosis">
+                                    Alternative diagnosis at least as likely as DVT (-2)
+                                </label>
+                            </div>
+
+                            <button type="button" class="btn btn-primary w-100" onclick="calculateWells()">Calculate Wells Score</button>
                         </form>
 
                         <div class="mt-4">
@@ -85,34 +108,34 @@
     </div>
 
     <script>
-		function calculateScore() {
-			let score = 0;
+        function calculateWells() {
+            // Wells score criteria
+            let score = 0;
+            score += document.getElementById('cancer').checked ? 1 : 0;
+            score += document.getElementById('paralysis').checked ? 1 : 0;
+            score += document.getElementById('bedridden').checked ? 1 : 0;
+            score += document.getElementById('tenderness').checked ? 1 : 0;
+            score += document.getElementById('swelling').checked ? 1 : 0;
+            score += document.getElementById('calfSwelling').checked ? 1 : 0;
+            score += document.getElementById('pittingEdema').checked ? 1 : 0;
+            score += document.getElementById('collateral').checked ? 1 : 0;
+            score -= document.getElementById('alternativeDiagnosis').checked ? 2 : 0;
 
-			// Hämta alla checkboxar och summera poängen
-			score += document.getElementById('cancer').checked ? 1 : 0;
-			score += document.getElementById('immobilisering').checked ? 1 : 0;
-			score += document.getElementById('ömhet').checked ? 1 : 0;
-			score += document.getElementById('svullnad').checked ? 1 : 0;
-			score += document.getElementById('vadsvullnad').checked ? 1 : 0;
-			score += document.getElementById('ödem').checked ? 1 : 0;
-			score += document.getElementById('tidigareDVT').checked ? 1 : 0;
-			score += document.getElementById('alternativDiagnos').checked ? -2 : 0;
+            // Get the result card and text
+            let resultCard = document.getElementById('resultCard');
+            let resultText = document.getElementById('result');
 
-			// Hämta kortet och textinnehållet för resultatet
-			let resultCard = document.getElementById('resultCard');
-			let resultText = document.getElementById('result');
-
-			// Baserat på poäng, ändra färg och text
-			if (score >= 2) {
-				resultCard.classList.remove('d-none', 'bg-warning', 'bg-success');
-				resultCard.classList.add('bg-danger');
-				resultText.innerText = `Wells Score: ${score}. Hög sannolikhet för DVT.`;
-			} else {
-				resultCard.classList.remove('d-none', 'bg-danger', 'bg-warning');
-				resultCard.classList.add('bg-success');
-				resultText.innerText = `Wells Score: ${score}. Låg sannolikhet för DVT.`;
-			}
-		}
+            // Display result based on Wells score
+            if (score >= 2) {
+                resultCard.classList.remove('d-none', 'bg-warning', 'bg-success');
+                resultCard.classList.add('bg-danger');
+                resultText.innerText = `Your Wells Score is ${score}. High probability of DVT.`;
+            }  else {
+                resultCard.classList.remove('d-none', 'bg-danger', 'bg-warning');
+                resultCard.classList.add('bg-success');
+                resultText.innerText = `Your Wells Score is ${score}. Low probability of DVT.`;
+            }
+        }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
