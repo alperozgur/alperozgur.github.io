@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sPESI Score Calculator for Pulmonary Embolism</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        #resultCard {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h1>sPESI Score Calculator for Pulmonary Embolism</h1>
+                    </div>
+                    <div class="card-body">
+                        <form id="sPESIForm">
+                            <!-- sPESI Score Criteria -->
+                            <h5>Select the criteria that apply to the patient:</h5>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="age">
+                                <label class="form-check-label" for="age">
+                                    Age > 80 years (+1)
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="cancer">
+                                <label class="form-check-label" for="cancer">
+                                    History of cancer (+1)
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="chronicCardiopulmonary">
+                                <label class="form-check-label" for="chronicCardiopulmonary">
+                                    Chronic cardiopulmonary disease (+1)
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="heartRate">
+                                <label class="form-check-label" for="heartRate">
+                                    Heart rate ≥110 beats per minute (+1)
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="sbp">
+                                <label class="form-check-label" for="sbp">
+                                    Systolic blood pressure <100 mmHg (+1)
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="oxygen">
+                                <label class="form-check-label" for="oxygen">
+                                    Arterial oxygen saturation <90% (+1)
+                                </label>
+                            </div>
+
+                            <button type="button" class="btn btn-primary w-100" onclick="calculateSPESI()">Calculate sPESI Score</button>
+                        </form>
+
+                        <div class="mt-4">
+                            <div id="resultCard" class="card text-center d-none">
+                                <div id="result" class="card-body fw-bold"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function calculateSPESI() {
+            // sPESI score criteria
+            let score = 0;
+            score += document.getElementById('age').checked ? 1 : 0;
+            score += document.getElementById('cancer').checked ? 1 : 0;
+            score += document.getElementById('chronicCardiopulmonary').checked ? 1 : 0;
+            score += document.getElementById('heartRate').checked ? 1 : 0;
+            score += document.getElementById('sbp').checked ? 1 : 0;
+            score += document.getElementById('oxygen').checked ? 1 : 0;
+
+            // Get the result card and text
+            let resultCard = document.getElementById('resultCard');
+            let resultText = document.getElementById('result');
+
+            // Display result based on sPESI score
+            if (score > 0) {
+                resultCard.classList.remove('d-none', 'bg-success');
+                resultCard.classList.add('bg-danger');
+                resultText.innerText = `Your sPESI Score is ${score}. High risk for complications.`;
+            } else {
+                resultCard.classList.remove('d-none', 'bg-danger');
+                resultCard.classList.add('bg-success');
+                resultText.innerText = `Your sPESI Score is ${score}. Low risk for complications.`;
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
