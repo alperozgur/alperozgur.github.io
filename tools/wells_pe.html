@@ -110,18 +110,14 @@
             let resultText = document.getElementById('result');
 
             // Display result based on Wells score for PE
-            if (score > 6) {
+            if (score > 4) {
                 resultCard.classList.remove('d-none', 'bg-warning', 'bg-success');
                 resultCard.classList.add('bg-danger');
-                resultText.innerText = `Your Wells Score is ${score}. High probability of Pulmonary Embolism.`;
-            } else if (score > 2 && score <= 6) {
-                resultCard.classList.remove('d-none', 'bg-danger', 'bg-success');
-                resultCard.classList.add('bg-warning');
-                resultText.innerText = `Your Wells Score is ${score}. Moderate probability of Pulmonary Embolism.`;
+                resultText.innerText = `Wells Score is ${score}. High probability of Pulmonary Embolism.`;
             } else {
                 resultCard.classList.remove('d-none', 'bg-danger', 'bg-warning');
                 resultCard.classList.add('bg-success');
-                resultText.innerText = `Your Wells Score is ${score}. Low probability of Pulmonary Embolism.`;
+                resultText.innerText = `Wells Score is ${score}. Low probability of Pulmonary Embolism.`;
             }
         }
     </script>
