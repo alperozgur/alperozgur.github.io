@@ -8,7 +8,8 @@
 
 [Tools]()
 
-  * [BMI Calculator](tools/bmi.md)
-  * [Villalta Calculator](tools/villalta.md)
+  * [Wells Calculator](tools/wells.html)
+  * [BMI Calculator](tools/bmi.html)
+  * [Villalta Calculator](tools/villalta.html)
 
 [gimmick:theme](journal)
