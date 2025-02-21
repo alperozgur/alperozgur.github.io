@@ -6,6 +6,7 @@ import pytz
 DB_PATH = "./rss/articles.db"
 TB_ARTICLES = "articles"
 TB_AUTHORS = "authors"
+rss_path = "rss"
 
 def generate_rss(output_file, author, link):    
     try:
@@ -39,7 +40,7 @@ def generate_rss(output_file, author, link):
                 print(f"Invalid date format for {title}: {date_str}")
 
         # Write to file
-        fg.rss_file(f"rss/{output_file}.xml")
+        fg.rss_file(f"{rss_path}/{output_file}.xml")
         print(f"RSS feed generated successfully: '{output_file}.xml'")
 
     except sqlite3.Error as e:
