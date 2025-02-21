@@ -39,7 +39,7 @@ def generate_rss(output_file, author, link):
                 print(f"Invalid date format for {title}: {date_str}")
 
         # Write to file
-        fg.rss_file(f"rss/{output_file}.xml")
+        fg.rss_file(f"{output_file}.xml")
         print(f"RSS feed generated successfully: '{output_file}.xml'")
 
     except sqlite3.Error as e:
@@ -63,4 +63,15 @@ def fetch_authors():
         print(f"Database error: {e}")
 
 if __name__ == "__main__":
+    # Debugging information
+    print(f"Connecting to database at: {DB_PATH}")
+    try:
+        with sqlite3.connect(DB_PATH) as conn:
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table';")
+            tables = cursor.fetchall()
+            print(f"Tables in the database: {tables}")
+    except sqlite3.Error as e:
+        print(f"Database error: {e}")
+
     fetch_authors()
