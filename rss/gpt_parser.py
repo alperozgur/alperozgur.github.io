@@ -3,6 +3,10 @@ from bs4 import BeautifulSoup
 import sqlite3
 from datetime import datetime
 
+DB_PATH = "./rss/articles.db"
+TB_ARTICLES = "articles"
+TB_AUTHORS = "authors"
+
 # Function to convert date from Turkish to yyyy-mm-dd format
 def convert_turkish_date(turkish_date):
 
@@ -35,8 +39,8 @@ def convert_turkish_date(turkish_date):
 def add_article(article):
     """Insert article details into the database."""
     try:
-        with sqlite3.connect("articles.db") as conn:
-            sql = '''INSERT INTO articles(author, date, title, desc, link) VALUES (?, ?, ?, ?, ?)'''
+        with sqlite3.connect(DB_PATH) as conn:
+            sql = f'''INSERT INTO {TB_ARTICLES}(author, date, title, desc, link) VALUES (?, ?, ?, ?, ?)'''
             cur = conn.cursor()
             cur.execute(sql, article)
             conn.commit()
@@ -80,9 +84,9 @@ def fetch_articles(url,parser):
 def fetch_authors(parser):
     """Fetch author links from the database and parse their articles."""
     try:
-        with sqlite3.connect('articles.db') as conn:
+        with sqlite3.connect(DB_PATH) as conn:
             cur = conn.cursor()
-            cur.execute(f"SELECT link FROM authors WHERE parser = '{parser}'")
+            cur.execute(f"SELECT link FROM {TB_AUTHORS} WHERE parser = '{parser}'")
             rows = cur.fetchall()
             for row in rows:
                 fetch_articles(row[0],parser)
