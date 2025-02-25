@@ -28,7 +28,7 @@ def fetch_authors():
         body = ET.SubElement(opml, "body")
         
         for short, author in authors:
-            ET.SubElement(body, "outline", text=author, type="link", url=domain+short+".xml")
+            ET.SubElement(body, "outline", text=author, type="link", xmlUrl=domain+short+".xml")
         # Convert tree to a string and write to file
         tree = ET.ElementTree(opml)
         with open(output_file, "wb") as f:
