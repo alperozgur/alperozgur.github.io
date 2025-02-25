@@ -1,6 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 
+domain = "https://alperozgur.github.io/"  # Change to your domain
 def create_opml(directory, output_file):
     # Create the OPML structure
     opml = ET.Element("opml", version="2.0")
@@ -12,7 +13,7 @@ def create_opml(directory, output_file):
     for file in os.listdir(directory):
         if file.endswith(".xml"):
             file_path = os.path.join(directory, file)
-            ET.SubElement(body, "outline", text=file, type="link", url=file_path)
+            ET.SubElement(body, "outline", text=file, type="link", url=domain+file_path)
     
     # Convert tree to a string and write to file
     tree = ET.ElementTree(opml)
