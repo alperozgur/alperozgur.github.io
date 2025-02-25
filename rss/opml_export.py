@@ -8,8 +8,7 @@ import pytz
 DB_PATH = "./rss/articles.db"
 TB_ARTICLES = "articles"
 TB_AUTHORS = "authors"
-rss_path = "rss/xml"
-domain = "https://alperozgur.github.io/rss/xml/"  # Change to your domain
+domain = "https://alperozgur.github.io/rss/nefes/"  # Change to your domain
 
 def fetch_authors():
     try:
@@ -40,7 +39,7 @@ def fetch_authors():
 
 
 # Example usage
-directory = "rss/xml"  # Change to your XML folder
-output_file = "rss/xml/authors.opml"
+directory = "rss/nefes"  # Change to your XML folder
+output_file = "rss/nefes/nefes.opml"
 fetch_authors()
 
