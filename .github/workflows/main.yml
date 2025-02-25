@@ -1,4 +1,4 @@
-name: Run parser app
+name: Run Parser and Feed generator apps
 
 on:
   schedule:
