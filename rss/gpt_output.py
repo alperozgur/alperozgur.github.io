@@ -8,11 +8,12 @@ import pytz
 DB_PATH = "./rss/articles.db"
 TB_ARTICLES = "articles"
 TB_AUTHORS = "authors"
-rss_path = "rss/nefes"
-domain = "https://alperozgur.github.io/rss/nefes/"  # Change to your domain
-output_file = "rss/nefes/nefes.opml"
 
-def generate_rss(output_file, author, link):    
+domain = "https://alperozgur.github.io/" 
+rss_path = "rss"
+
+
+def generate_rss(output_file, author, link, parser):    
     try:
         with sqlite3.connect(DB_PATH) as conn:
             cursor = conn.cursor()
@@ -44,7 +45,7 @@ def generate_rss(output_file, author, link):
                 print(f"Invalid date format for {title}: {date_str}")
 
         # Write to file
-        fg.rss_file(f"{rss_path}/{output_file}.xml")
+        fg.rss_file(f"{rss_path}/{parser}/{output_file}.xml")
         print(f"RSS feed generated successfully: '{output_file}.xml'")
 
     except sqlite3.Error as e:
@@ -54,7 +55,7 @@ def fetch_authors():
     try:
         with sqlite3.connect(DB_PATH) as conn:
             cur = conn.cursor()
-            cur.execute(f"SELECT short, author, link FROM {TB_AUTHORS}")
+            cur.execute(f"SELECT short, author, link, parser FROM {TB_AUTHORS}")
             authors = cur.fetchall()
 
         if not authors:
@@ -66,11 +67,12 @@ def fetch_authors():
         ET.SubElement(head, "title").text = "Köşe Yazarları RSS Listesi"
         body = ET.SubElement(opml, "body")
 
-        for short, author, link in authors:
-            generate_rss(short, author, link)
-            ET.SubElement(body, "outline", text=author, type="link", xmlUrl=domain+short+".xml")
+        for short, author, link, parser in authors:
+            generate_rss(short, author, link, parser)
+            ET.SubElement(body, "outline", text=author, type="link", xmlUrl=domain+rss_path+parser+short+".xml")
         # Convert tree to a string and write to file
         tree = ET.ElementTree(opml)
+        output_file = rss_path+"/"+parser+"/"+parser+".opml"
         with open(output_file, "wb") as f:
             tree.write(f, encoding="utf-8", xml_declaration=True)
         print(f"OPML file created: {output_file}")
