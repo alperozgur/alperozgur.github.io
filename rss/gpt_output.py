@@ -81,6 +81,7 @@ def fetch_authors():
     except sqlite3.Error as e:
         print(f"Database error: {e}")
 
+# OPML to HTML
 def parse_opml(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
@@ -101,13 +102,13 @@ def opml_to_html(outlines, indent=0):
         xml_url = outline.get("xmlUrl")
         
         if xml_url:
-            html += " " * indent + f"<li class='list-group-item'><a href='{xml_url}' class='text-decoration-none'>{text}</a></li>\n"
+            html += " " * indent + f"<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='{xml_url}' class='text-decoration-none text-primary'>{text}</a></li>\n"
         else:
-            html += " " * indent + f"<li class='list-group-item'>{text}</li>\n"
+            html += " " * indent + f"<li class='list-group-item bg-white shadow-sm p-2 opml-item'>{text}</li>\n"
         
         children = outline.findall("outline")
         if children:
-            html += " " * indent + "<ul class='list-group'>\n"
+            html += " " * indent + "<ul class='list-group ms-3'>\n"
             html += opml_to_html(children, indent + 2)
             html += " " * indent + "</ul>\n"
     return html
@@ -117,22 +118,58 @@ def generate_html(opml_path, output_path):
     
     html_content = """
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OPML Viewer</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body { background-color: #f0f8ff; color: #002147; }
+            .navbar { background-color: #002147; }
+            .navbar-brand, .nav-link { color: #ffffff !important; }
+            .container { margin-top: 30px; }
+            .opml-container { background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+            .footer { background-color: #002147; color: white; text-align: center; padding: 20px 0; margin-top: 30px; }
+            .btn-custom { background-color: #002147; color: white; }
+            .btn-custom:hover { background-color: #003366; color: white; }
+            .opml-item:hover { background-color: #dfefff; transition: background-color 0.3s ease-in-out; }
+        </style>
+        <script>
+            function searchOPML() {
+                let input = document.getElementById('searchInput').value.toLowerCase();
+                let items = document.getElementsByClassName('opml-item');
+                for (let item of items) {
+                    let text = item.textContent.toLowerCase();
+                    if (text.includes(input)) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            }
+        </script>
     </head>
-    <body class="container mt-4">
-        <h1 class="mb-4">OPML Viewer</h1>
-        <ul class="list-group">
-    """ + opml_to_html(body.findall("outline")) + "</ul>\n</body>\n</html>"
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">OPML Viewer</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="opml-container">
+                <div class="mb-3">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search..." onkeyup="searchOPML()">
+                </div>
+                <ul class="list-group">
+    """ + opml_to_html(body.findall("outline")) + "</ul>\n</div>\n</div>\n<footer class='footer'><p>&copy; 2025 OPML Viewer. All rights reserved.</p></footer>\n</body>\n</html>"
     
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
     
     print(f"HTML file generated: {output_path}")
 
+# Main function    
 if __name__ == "__main__":
     fetch_authors()
     generate_html("rss/index.opml", "rss/index.html")
