@@ -1,42 +1,32 @@
 ---
 # the default layout is 'page'
+title: About me
 icon: fas fa-info-circle
 order: 4
 ---
-# Alper Özgür
 
-## Cardiovascular Surgeon
+I am a cardiovascular surgeon currently practicing at the University Hospital of Northern Sweden in Umeå. My clinical and academic background spans over a decade and includes experience in both public and private healthcare systems across Sweden and Türkiye.
 
-***Umeå, Västerbotten County, Sweden***
+I obtained my medical degree from Çukurova University in Adana, Türkiye. Throughout my education, I had the opportunity to broaden my medical perspective through studies in Spain (Universitat de Lleida) and Latvia (Rīga Stradiņš University), which deeply enriched both my clinical approach and cultural understanding. 
+
+Following medical school, I entered the Cardiovascular Surgery Residency Program at Dışkapı Yıldırım Beyazıt Research Hospital in Ankara. There, I developed a strong foundation in cardiac and vascular surgical techniques, with early exposure to complex procedures including coronary artery bypass grafting, valve replacements, and acute vascular emergencies.
+
+In the latter part of my residency, I continued my training at Ankara University, where I focused on advanced cardiovascular interventions, perioperative management, and postoperative care. During this time, I gained significant experience in open heart surgery, aortic aneurysm repair, endovascular procedures, advanced life support systems (ECMO,LVAD) and heart transplantations while also participating in academic case discussions and clinical teaching activities.
+
+Between 2017 and 2023, I served in several institutions including Yozgat City Hospital, Güven Sağlık Grubu, and Memorial Healthcare Group in Ankara, focusing on both open and endovascular procedures. Since 2023, I have been a part of the vascular surgery team at the University Hospital of Northern Sweden, where I continue to develop my clinical and academic interests in vascular and endovascular interventions.
+
+This blog serves as a platform to share professional insights, academic reflections, and developments in the field of cardiovascular surgery.
 
 ### Experience
 
-**Universityhospital of Northern Sweden**  
-Vascular Surgeon  
-August 2023 - Present (11 months)  
-*Umeå, Västerbotten, Sweden*  
-
-**Memorial Healthcare Group**  
-Cardiovascular Surgeon  
-May 2022 - August 2023 (1 year 4 months)  
-*Ankara, Türkiye*  
-
-**Güven Sağlık Grubu**  
-Cardiovascular Surgeon  
-May 2021 - June 2022 (1 year 2 months)  
-*Ankara, Türkiye*
-
-**Yozgat City Hospital**  
-Cardiovascular Surgeon  
-November 2017 - May 2021 (3 years 7 months)  
-*Yozgat, Türkiye*  
+| Hospital                     | Position         | Date |
+| :--------------------------- | :--------------- | :------ |
+| Universityhospital of Northern Sweden | Vascular Surgeon | August 2023 - Present |
+| Memorial Healthcare Group | Cardiovascular Surgeon | May 2022 - August 2023 |
+| Güven Sağlık Grubu | Cardiovascular Surgeon | May 2021 - June 2022 |
+| Yozgat City Hospital | Cardiovascular Surgeon | November 2017 - May 2021 |
 
 ### Education
-
-**Ankara University**  
-Cardiovascular Surgery Residency Program  
-January 2014 - November 2017  
-*Ankara, Türkiye*
 
 **Dışkapı Yıldırım Beyazıt Research Hospital**  
 Cardiovascular Surgery Residency Program  

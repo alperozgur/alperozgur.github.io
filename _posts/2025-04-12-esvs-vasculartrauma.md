@@ -26,4 +26,4 @@ For clinicians in the field, this is more than a document—it’s a lifeline to
 
 ***
 
-| Here's a link to the guideline on ESVS website: | [Go to ESVS website](https://www.ejves.com/article/S1078-5884(24)01374-1/fulltext) | [Download PDF](https://www.ejves.com/action/showPdf?pii=S1078-5884%2824%2901374-1) |
+| Here's a link to the guideline on ESVS website: | [Go to ESVS website](https://www.ejves.com/article/S1078-5884(24)01374-1/fulltext){:target="_blank"} | [Download PDF](https://www.ejves.com/action/showPdf?pii=S1078-5884%2824%2901374-1){:target="_blank"} |
