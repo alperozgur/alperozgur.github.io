@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-# Alper Ozgur
+# Alper Özgür
 
 ## Cardiovascular Surgeon
 
