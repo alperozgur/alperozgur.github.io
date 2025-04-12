@@ -12,8 +12,8 @@ tags: [orthopedic, trauma]
 | Posterior knee dislocation       | Popliteal artery                     |
 | Proximal tibia fracture          | Popliteal artery and trifurcation    |
 | Clavicle fracture                | Subclavian artery                    |
-| Shoulder dislocation            | Axillary artery                      |
-| Supracondylar humerus fracture  | Brachial artery                      |
-| Elbow dislocation               | Brachial artery                      |
-| Cervical spine injury           | Carotid and/or vertebral artery      |
-| Pelvic fracture                 | Internal iliac artery branches       |
+| Shoulder dislocation             | Axillary artery                      |
+| Supracondylar humerus fracture   | Brachial artery                      |
+| Elbow dislocation                | Brachial artery                      |
+| Cervical spine injury            | Carotid and/or vertebral artery      |
+| Pelvic fracture                  | Internal iliac artery branches       |
