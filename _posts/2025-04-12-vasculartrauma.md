@@ -3,7 +3,7 @@ layout: post
 title: "ESVS: Guidelines on the Management of Vascular Trauma - 2025"
 date: 2025-04-12
 categories: [guidelines]
-tags: [esvs,vascular,trauma]
+tags: [esvs trauma]
 author: "Alper Özgür"
 ---
 
