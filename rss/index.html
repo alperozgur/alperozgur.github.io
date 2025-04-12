@@ -1,0 +1,93 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OPML Viewer</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body { background-color: #f0f8ff; color: #002147; }
+            .navbar { background-color: #002147; }
+            .navbar-brand, .nav-link { color: #ffffff !important; }
+            .container { margin-top: 30px; }
+            .opml-container { background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+            .footer { background-color: #002147; color: white; text-align: center; padding: 20px 0; margin-top: 30px; }
+            .btn-custom { background-color: #002147; color: white; }
+            .btn-custom:hover { background-color: #003366; color: white; }
+            .opml-item:hover { background-color: #dfefff; transition: background-color 0.3s ease-in-out; }
+        </style>
+        <script>
+            function searchOPML() {
+                let input = document.getElementById('searchInput').value.toLowerCase();
+                let items = document.getElementsByClassName('opml-item');
+                for (let item of items) {
+                    let text = item.textContent.toLowerCase();
+                    if (text.includes(input)) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">OPML Viewer</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="opml-container">
+                <div class="mb-3">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search..." onkeyup="searchOPML()">
+                </div>
+                <ul class="list-group">
+    <li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/nevsin-mengu.xml' class='text-decoration-none text-primary'>Nevşin Mengü</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/deniz-zeyrek.xml' class='text-decoration-none text-primary'>Deniz Zeyrek</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/aytunc-erkin.xml' class='text-decoration-none text-primary'>Aytunç Erkin</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/murat-muratoglu.xml' class='text-decoration-none text-primary'>Murat Muratoğlu</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/soner-yalcin.xml' class='text-decoration-none text-primary'>Soner Yalçın</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/can-atakli.xml' class='text-decoration-none text-primary'>Can Ataklı</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/memduh-bayraktaroglu.xml' class='text-decoration-none text-primary'>Memduh Bayraktaroğlu</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/umit-zileli.xml' class='text-decoration-none text-primary'>Ümit Zileli</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/nuray-babacan.xml' class='text-decoration-none text-primary'>Nuray Babacan</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/recep-genel.xml' class='text-decoration-none text-primary'>Recep Genel</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/musa-kart.xml' class='text-decoration-none text-primary'>Musa Kart</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/metin-koklucinar.xml' class='text-decoration-none text-primary'>Metin Köklüçınar</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/sansal-buyuka.xml' class='text-decoration-none text-primary'>Şansal Büyüka</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/ugur-karakullukcu.xml' class='text-decoration-none text-primary'>Uğur Karakullukçu</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/bahadir-cokisler.xml' class='text-decoration-none text-primary'>Bahadır Çokişler</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/fatih-soylemezoglu.xml' class='text-decoration-none text-primary'>Fatih Söylemezoğlu</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/devrim-demirel.xml' class='text-decoration-none text-primary'>Devrim Demirel</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/utkan-aydin.xml' class='text-decoration-none text-primary'>Utkan Aydın</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/alican-ozcan.xml' class='text-decoration-none text-primary'>Alican Özcan</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/secim-demirel.xml' class='text-decoration-none text-primary'>Seçim Demirel</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/nefes/nuri-imre.xml' class='text-decoration-none text-primary'>Nuri İmre</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/vahap-munyar.xml' class='text-decoration-none text-primary'>Vahap MUNYAR</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/seref-oguz.xml' class='text-decoration-none text-primary'>Şeref OĞUZ</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/didem-eryar-unlu.xml' class='text-decoration-none text-primary'>Didem Eryar ÜNLÜ</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/alaattin-aktas.xml' class='text-decoration-none text-primary'>Alaattin AKTAŞ</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/atilim-murat.xml' class='text-decoration-none text-primary'>Atılım MURAT</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/ali-ekber-yildirim.xml' class='text-decoration-none text-primary'>Ali Ekber YILDIRIM</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/osman-ulagay.xml' class='text-decoration-none text-primary'>Osman ULAGAY</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/omer-faruk-colak.xml' class='text-decoration-none text-primary'>Ömer Faruk ÇOLAK</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/emre-alkin.xml' class='text-decoration-none text-primary'>Emre ALKİN</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/nevzat-saygilioglu.xml' class='text-decoration-none text-primary'>Nevzat SAYGILIOĞLU</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/tugrul-aksar.xml' class='text-decoration-none text-primary'>Tuğrul AKŞAR</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/recep-biyik.xml' class='text-decoration-none text-primary'>Recep BIYIK</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/erhan-aslanoglu.xml' class='text-decoration-none text-primary'>Erhan ASLANOĞLU</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/dr-ferhat-demir.xml' class='text-decoration-none text-primary'>Dr. Ferhat DEMİR</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/ozlem-karahan.xml' class='text-decoration-none text-primary'>Özlem KARAHAN</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/onur-duygu.xml' class='text-decoration-none text-primary'>Onur DUYGU</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/arda-oztaskin.xml' class='text-decoration-none text-primary'>Arda Öztaşkın</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/zeynep-aktas.xml' class='text-decoration-none text-primary'>Zeynep Aktaş</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/selcuk-altun.xml' class='text-decoration-none text-primary'>Selçuk ALTUN</a></li>
+<li class='list-group-item bg-white shadow-sm p-2 opml-item'><a href='https://alperozgur.github.io/rss/ekonomim/harun-kurnaz.xml' class='text-decoration-none text-primary'>Harun Kurnaz</a></li>
+</ul>
+</div>
+</div>
+<footer class='footer'><p>&copy; 2025 OPML Viewer. All rights reserved.</p></footer>
+</body>
+</html>
