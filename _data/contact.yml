@@ -5,7 +5,7 @@
 
 - type: bluesky
   icon: "fa-brands fa-bluesky"
-  url: "https://bsky.app/profile/alperozgur.bsky.social" # Fill with your Bluesky profile link
+  url: "https://bsky.app/profile/alperozgur.net" # Fill with your Bluesky profile link
 
 - type: email
   icon: "fas fa-envelope"

@@ -89,8 +89,3 @@ Doctor of Medicine - MD, Medicine
 
 ### Course Participations
 
-### Social media
-
-You can follow me on my social media accounts: 
-[Facebook](https://www.facebook.com)
-
