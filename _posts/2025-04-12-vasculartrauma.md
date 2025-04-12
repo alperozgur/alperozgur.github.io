@@ -21,4 +21,5 @@ Beyond acute management, the guidelines highlight long-term considerations like 
 
 For clinicians in the field, this is more than a document—it’s a lifeline to better outcomes. I highly recommend reviewing the full text and incorporating these protocols into your trauma workflows.
 
+### Link
 Here's a link to the guideline on ESVS website: [Go to guideline](https://www.ejves.com/article/S1078-5884(24)01374-1/fulltext)
