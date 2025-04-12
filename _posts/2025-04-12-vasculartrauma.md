@@ -2,7 +2,7 @@
 layout: post
 title: "ESVS: Guidelines on the Management of Vascular Trauma - 2025"
 date: 2025-04-12 14:00:00 +0000
-categories: [guidelines]
+categories: [Guidelines]
 tags: [trauma]
 ---
 
