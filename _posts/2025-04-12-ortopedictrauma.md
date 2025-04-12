@@ -4,7 +4,6 @@ title: "Orthopaedic injuries associated with vascular injuries"
 date: 2025-04-12 15:00:00 +0000
 categories: [Vascular]
 tags: [orthopedic, trauma]
-description: "Orthopaedic injuries associated with vascular injuries"
 ---
 
 | Orthopaedic Injury               | Vascular Injury                      |
