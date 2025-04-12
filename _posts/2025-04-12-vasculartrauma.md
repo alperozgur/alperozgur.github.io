@@ -3,7 +3,7 @@ layout: post
 title: "ESVS: Clinical Practice Guidelines on the Management of Vascular Trauma -2025"
 date: 2025-04-12
 categories: [guidelines]
-tags: [tags: [esvs,vascular,trauma]
+tags: [esvs,vascular,trauma]
 author: "Alper Özgür"
 ---
 
