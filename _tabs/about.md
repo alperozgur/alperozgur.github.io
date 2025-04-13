@@ -69,6 +69,9 @@ Ultimately, the study contributes to the growing body of evidence supporting the
     Öztürk S, Öztürk İ, İlhan S, `Özgür A` (2015)  
     [Turkish Journal of Thoracic and Cardiovascular Surgery, 182–190](https://doi.org/10.5606/tgkdc.dergisi.2015.10082){:target="_blank"}
 
+> [**Surgery for severe aortic coarctation in a 55-year-old female patient**](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_2306.pdf){:target="_blank"}  
+    Taşar M, Özçınar E, Hodo B, `Özgür A`, Eryılmaz S, Kaya B (2015)  
+    [Turkish Journal of Thoracic and Cardiovascular Surgery, 23(4), 779–780](https://doi.org/10.5606/tgkdc.dergisi.2015.11406){:target="_blank"}
 
 ### Guidelines  
 
@@ -82,23 +85,11 @@ Ultimately, the study contributes to the growing body of evidence supporting the
 
 ### Poster Presentations
 
-> **Evaluation of the Effect of Endovenous Ablation Catheters in the Junctional Segment**  
-    Evren Ozcinar, Mehmet Cakici, Unsal Han, Oktay Korun, Metin Yilmaz, Selen Ozturk Caki, Ali Bulut, Alper Ozgur Ceylan Kuran Akit, Ugursay Kiziltepe  
-    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013  
-
-> **İpsilateral ilyak arter ve femoropopliteal lezyonu olan hastalarda ilyak artere pta/stentleme sonrası femoropopliteal by-pass yapılan hastaların sonuçları**  
-    Metin Yılmaz, Evren Özçınar, Mustafa Seren, Ali Bulut, Alper Özgür, Alp Dolgun, Uğursay Kızıltepe  
-    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013
-
-> **Kalf bölgesinde yerleşim gösteren derin ven trombozu ve rezidüel ven tıkanıklıklarının düşük molekül ağırlıklı heparin tedavisi sonrası ultrason ile değerlendirilmesi**  
+> [**Kalf bölgesinde yerleşim gösteren derin ven trombozu ve rezidüel ven tıkanıklıklarının düşük molekül ağırlıklı heparin tedavisi sonrası ultrason ile değerlendirilmesi**](https://manage.turkishjournalofvascularsurgery.org/uploads/articles/pdf_TJVS_406.pdf){:target="_blank"}  
     Evren Özçınar, Mehmet Çakıcı, Çağdaş Baran, Ali İhsan Hasde, Fatih Gümüş, Alper Özgür, Mustafa Serkan Durdu, Mustafa Bahadır İnan, Sadik Eryılmaz, Mustafa Şırlak, Bülent Kaya, Ahmet Rüçhan Akar  
     18th Congress of Turkish National Society of Vascular and Endovascular Surgery; Cyprus - 2017
 
-> **Dual extracranial carotid artery aneurysm: a case report**  
-    Evren Özçınar, Mehmet Çakıcı, Hüseyin Göktaş, Alper Özgür, Vahit Mahmadov, Sadik Eryilmaz, Bulent Kaya, Adnan Uysalel  
-    13th Congress of Turkish Society of Cardiovascular Surgery; Antalya, Turkey 2014  
-
-> **Long Term Follow Up of Patients Undergone Redo Cardioaortic Surgery**  
+> [**Long Term Follow Up of Patients Undergone Redo Cardioaortic Surgery**](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_2479.pdf){:target="_blank"}  
     Evren Özçınar, Fatih Gümüş, Alper Özgür, Anar Aliyev, Mehmet Çakıcı,Çağdaş Baran, Mustafa Bahadır İnan, Bülent Kaya, Ahmet Rüçhan Akar  
     14th Congress of Turkish Society of Cardiovascular Surgery; Antalya, Turkey 2016
 
@@ -113,6 +104,23 @@ Ultimately, the study contributes to the growing body of evidence supporting the
 > **Minimally invasive aortic valve replacement through right anterior thoracotomy**  
     Mustafa Bahadır Inan, Serkan Durdu, Mehmet Çakıcı, Evren Özçınar, Nur Dikmen Yaman, Alper Özgür, Fatih Gümüş, Onat Bermede, Menekşe Gerede, Mustafa Şırlak, Atilla Aral, Ahmet Rüçhan Akar  
     2nd Minimally Invasive and Robotic Cardiovascular Surgery Symposium and ISMICS 2015 Winter Workshop
+
+> [**Dual extracranial carotid artery aneurysm: a case report**](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_2141.pdf){:target="_blank"}  
+    Evren Özçınar, Mehmet Çakıcı, Hüseyin Göktaş, Alper Özgür, Vahit Mahmadov, Sadik Eryilmaz, Bulent Kaya, Adnan Uysalel  
+    13th Congress of Turkish Society of Cardiovascular Surgery; Antalya, Turkey 2014  
+
+> [**Evaluation of the Effect of Endovenous Ablation Catheters in the Junctional Segment**](https://www.jstage.jst.go.jp/article/avd/6/Supplement/6_sup.13-00007/_pdf/-char/en){:target="_blank"}  
+    Evren Ozcinar, Mehmet Cakici, Unsal Han, Oktay Korun, Metin Yilmaz, Selen Ozturk Caki, Ali Bulut, Alper Ozgur Ceylan Kuran Akit, Ugursay Kiziltepe  
+    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013  
+
+> **İpsilateral ilyak arter ve femoropopliteal lezyonu olan hastalarda ilyak artere pta/stentleme sonrası femoropopliteal by-pass yapılan hastaların sonuçları**  
+    Metin Yılmaz, Evren Özçınar, Mustafa Seren, Ali Bulut, Alper Özgür, Alp Dolgun, Uğursay Kızıltepe  
+    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013
+
+> [**Travelling Bullet**](https://www.jstage.jst.go.jp/article/avd/6/Supplement/6_sup.13-00009/_pdf/-char/en){:target="_blank"}  
+    Kasim Karapinar, Bahadır Külah, Ali Bulut, Alper Özgür, Cengizhan Bayyurt, Senan Hüseynov  
+    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013
+    
 
 ### Congress Participations
 
