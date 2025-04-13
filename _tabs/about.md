@@ -19,45 +19,37 @@ This blog serves as a platform to share professional insights, academic reflecti
 
 ### Experience
 
-| Hospital                     | Position         | Date |
-| :--------------------------- | :--------------- | :------ |
-| Universityhospital of Northern Sweden | Vascular Surgeon | August 2023 - Present |
-| Memorial Healthcare Group | Cardiovascular Surgeon | May 2022 - August 2023 |
-| Güven Sağlık Grubu | Cardiovascular Surgeon | May 2021 - June 2022 |
-| Yozgat City Hospital | Cardiovascular Surgeon | November 2017 - May 2021 |
+| Hospital                     | Date |
+| :--------------------------- | :--- |
+| Universityhospital of Northern Sweden | August 2023 - Present |
+| Memorial Healthcare Group | May 2022 - August 2023 |
+| Güven Sağlık Grubu | May 2021 - June 2022 |
+| Yozgat City Hospital | November 2017 - May 2021 |
 
 ### Education
 
-**Dışkapı Yıldırım Beyazıt Research Hospital**  
-Cardiovascular Surgery Residency Program  
-January 2012 - January 2014  
-*Ankara, Türkiye*
+| University                                | Date                         |
+| :---------------------------------------- | :--------------------------- |
+| Ankara University                         | January 2014 - November 2017 |
+| Dışkapı Yıldırım Beyazıt Research Hospital| January 2012 - January 2014  |
+| Universitat de Lleida                     | 2007 - 2008 (6 months)       |
+| Rīga Stradiņš University                  | 2006 - 2006 (1 month)        |
+| Cukurova University                       | 2003 - 2009                  |
+  
 
-**Cukurova University**  
-Doctor of Medicine - MD, Medicine  
-2003 - 2009  
-*Adana, Türkiye*
+### Doctoral Thesis
 
-**Universitat de Lleida**  
-Doctor of Medicine - MD, Medicine  
-2007 - 2008  
-*Lleida, Spain*
+**Minimally Invasive Cardiac Surgery: A Contemporary Perspective**
 
-**Rīga Stradiņš University**  
-Doctor of Medicine - MD, Medicine  
-2006 - 2006  
-*Riga - Latvia*
+My medical specialization thesis, conducted at Ankara University Faculty of Medicine, focused on the implementation and outcomes of minimally invasive surgical techniques in cardiac surgery. While minimally invasive methods have long been adopted in various surgical disciplines, their integration into cardiac surgery has occurred more gradually, primarily due to the satisfactory results achieved with conventional approaches and the technical demands of heart operations.
 
+Traditional cardiac surgery typically involves median sternotomy and cardiopulmonary bypass (CPB), offering broad surgical access but at the cost of increased postoperative recovery time and potential complications. In contrast, minimally invasive cardiac surgery (MICS) seeks to reduce surgical trauma by avoiding full sternotomy and, where possible, minimizing or modifying CPB. Techniques such as right or left mini-thoracotomy, J-sternotomy, and subxiphoid incisions are employed to limit tissue damage and promote faster recovery.
 
-## Research
+This thesis outlines a systematic approach adopted in our clinic for MICS, emphasizing the importance of team coordination among surgeons, anesthesiologists, and operating room staff. Particular attention is paid to patient selection, as favorable outcomes depend on choosing appropriate cases during the early phases of institutional experience. Additionally, the thesis addresses unique complications associated with MICS and the importance of developing strategies tailored to these challenges.
 
->Here you can find a list of my publications and scientific contributions.
+Ultimately, the study contributes to the growing body of evidence supporting the efficacy and safety of minimally invasive cardiac surgery. With advancements in technology and increasing experience, MICS continues to evolve as a promising alternative to conventional methods, offering patients less invasive yet equally effective surgical solutions.
 
-### Thesis
-
-| Title | Link |
-| ----- | ---- |
-| Minimally Invasive Cardiac Surgery: Our Experience| [`Link`](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN)|
+| Here's a link to my doctoral thesis on the official thesis database: | [Go to database website](https://tez.yok.gov.tr/UlusalTezMerkezi/giris.jsp){:target="_blank"} | [Download PDF](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN){:target="_blank"} |
 
 ### Articles
 
