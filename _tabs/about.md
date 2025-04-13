@@ -55,7 +55,7 @@ Ultimately, the study contributes to the growing body of evidence supporting the
 
 > [**An experience in the COVID-19 pandemic period: Turkish Cardiovascular Surgery Online Board Exam 2020**](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_3554.pdf){:target="_blank"}  
     Şahin H, `Özgür A`, Paker T, Atay Y (2022)  
-    [Turkish Journal of Thoracic and Cardiovascular Surgery, 30(1), 44–50.](http://dx.doi.org/doi: 10.5606/tgkdc.dergisi.2022.22930){:target="_blank"}  
+    [Turkish Journal of Thoracic and Cardiovascular Surgery, 30(1), 44–50.](https://dx.doi.org/doi: 10.5606/tgkdc.dergisi.2022.22930){:target="_blank"}  
 
 > [**Results of late-onset type A aortic dissection after previous cardiac surgery: Does prior coronary artery bypass grafting affect survival?**](https://tgkdc.dergisi.org/uploads/pdf/pdf_TGKDC_2625.pdf){:target="_blank"}  
     Özçınar E, Çakıcı M, Baran Ç, Gümüş F, `Özgür A`, Yazıcıoğlu L, Kaya B, Akar AR (2018)  
