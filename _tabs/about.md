@@ -74,9 +74,57 @@ Ultimately, the study contributes to the growing body of evidence supporting the
 
 ### Oral Presentations
 
+> **Concomitant stented bioprothesis aortic valve and mitral valve implantation, our experience**  
+    Turkish Society of Cardiovascular Surgery, Annual Congress; Antalya, Turkey - 2016
+
+> **Free floating thrombus in carotid artery**  
+    Turkish Society of Vascular Surgery, Annual Congress; İstanbul, Turkey - 2013
+
 ### Poster Presentations
+
+> **Evaluation of the Effect of Endovenous Ablation Catheters in the Junctional Segment**  
+    Evren Ozcinar, Mehmet Cakici, Unsal Han, Oktay Korun, Metin Yilmaz, Selen Ozturk Caki, Ali Bulut, Alper Ozgur Ceylan Kuran Akit, Ugursay Kiziltepe  
+    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013  
+
+> **İpsilateral ilyak arter ve femoropopliteal lezyonu olan hastalarda ilyak artere pta/stentleme sonrası femoropopliteal by-pass yapılan hastaların sonuçları**  
+    Metin Yılmaz, Evren Özçınar, Mustafa Seren, Ali Bulut, Alper Özgür, Alp Dolgun, Uğursay Kızıltepe  
+    14th Congress of Asian Society for Vascular Surgery; Istanbul, Turkey -2013
+
+> **Kalf bölgesinde yerleşim gösteren derin ven trombozu ve rezidüel ven tıkanıklıklarının düşük molekül ağırlıklı heparin tedavisi sonrası ultrason ile değerlendirilmesi**  
+    Evren Özçınar, Mehmet Çakıcı, Çağdaş Baran, Ali İhsan Hasde, Fatih Gümüş, Alper Özgür, Mustafa Serkan Durdu, Mustafa Bahadır İnan, Sadik Eryılmaz, Mustafa Şırlak, Bülent Kaya, Ahmet Rüçhan Akar  
+    18th Congress of Turkish National Society of Vascular and Endovascular Surgery; Cyprus - 2017
+
+> **Dual extracranial carotid artery aneurysm: a case report**  
+    Evren Özçınar, Mehmet Çakıcı, Hüseyin Göktaş, Alper Özgür, Vahit Mahmadov, Sadik Eryilmaz, Bulent Kaya, Adnan Uysalel  
+    13th Congress of Turkish Society of Cardiovascular Surgery; Antalya, Turkey 2014  
+
+> **Long Term Follow Up of Patients Undergone Redo Cardioaortic Surgery**  
+    Evren Özçınar, Fatih Gümüş, Alper Özgür, Anar Aliyev, Mehmet Çakıcı,Çağdaş Baran, Mustafa Bahadır İnan, Bülent Kaya, Ahmet Rüçhan Akar  
+    14th Congress of Turkish Society of Cardiovascular Surgery; Antalya, Turkey 2016
+
+> **Minimally invasive mitral valve surgery: Our experience**  
+    Serkan Durdu, Mustafa Bahadır Inan, Mehmet Çakıcı, Evren Özçınar, Alper Özgür, Fatih Gümüş, Nur Dikmen Yaman, Onat Bermede, Çiğdem Evren Denker, Menekşe Gerede, Mustafa Şırlak, Ahmet Rüçhan Akar  
+    2nd Minimally Invasive and Robotic Cardiovascular Surgery Symposium and ISMICS 2015 Winter Workshop  
+
+> **Minimally Invasive Surgical Closure of Atrial Septal Defects: Our Experience and Results**  
+    Serkan Durdu, Mustafa Bahadır Inan, Evren Özçınar, Mehmet Çakıcı, Fatih Gümüş, Nur Dikmen Yaman, Alper Özgür, Mehmet Cahit Sarıcaoğlu, Onat Bermede, Çiğdem Benal Evren Denker, Mustafa Şırlak, Ahmet Rüçhan Akar  
+    2nd Minimally Invasive and Robotic Cardiovascular Surgery Symposium and ISMICS 2015 Winter Workshop
+
+> **Minimally invasive aortic valve replacement through right anterior thoracotomy**  
+    Mustafa Bahadır Inan, Serkan Durdu, Mehmet Çakıcı, Evren Özçınar, Nur Dikmen Yaman, Alper Özgür, Fatih Gümüş, Onat Bermede, Menekşe Gerede, Mustafa Şırlak, Atilla Aral, Ahmet Rüçhan Akar  
+    2nd Minimally Invasive and Robotic Cardiovascular Surgery Symposium and ISMICS 2015 Winter Workshop
 
 ### Congress Participations
 
+| Turkish Society of Vascular Surgery, Annual Congress, Turkey 2013 |
+| Turkish Society of Cardiovascular Surgery, Annual Congress, Turkey 2014 |
+| Turkish Society of Vascular Surgery, Annual Congress, Turkey 2015 |
+| Turkish Society of Cardiovascular Surgery, Annual Congress, Turkey 2016 |
+
 ### Course Participations
 
+| European Vascular Course (EVC), Maastricht, 2018 |
+| Minimally Invasive Valve Surgery, Ankara, 2016 |
+| ECMO techniques and management course, Ankara, 2015 |
+| EVAR & TEVAR hands on simulation course, İstanbul, 2014 |
+| Resident Summer School, Eskişehir, Turkey 2014 |
