@@ -49,7 +49,7 @@ This thesis outlines a systematic approach adopted in our clinic for MICS, empha
 
 Ultimately, the study contributes to the growing body of evidence supporting the efficacy and safety of minimally invasive cardiac surgery. With advancements in technology and increasing experience, MICS continues to evolve as a promising alternative to conventional methods, offering patients less invasive yet equally effective surgical solutions.
 
-| Here's a link to my doctoral thesis on the official thesis database: | [Go to database website](https://tez.yok.gov.tr/UlusalTezMerkezi/giris.jsp){:target="_blank"} | [Download PDF](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN){:target="_blank"} |
+| [Go to database website](https://tez.yok.gov.tr/UlusalTezMerkezi/giris.jsp){:target="_blank"} | [Download PDF](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpTw0GH3OQwPvLGMBkaSqcCw3DudRdcG48yX0vbdOlvEN){:target="_blank"} |
 
 ### Articles
 
