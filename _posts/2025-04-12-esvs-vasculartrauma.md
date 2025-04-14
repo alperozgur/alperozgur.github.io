@@ -4,6 +4,9 @@ title: "ESVS: Guidelines on the Management of Vascular Trauma - 2025"
 date: 2025-04-12 14:00:00 +0000
 categories: [Guidelines]
 tags: [trauma]
+image:
+    path: media/image/guideline.png
+
 ---
 
 ### Navigating Vascular Emergencies: Insights from the 2025 ESVS Guidelines
