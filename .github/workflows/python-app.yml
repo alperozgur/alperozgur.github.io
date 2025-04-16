@@ -18,7 +18,7 @@ jobs:
           python-version: 3.8 #install the python needed
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 sqlite3 FeedGenerator
+          pip install requests beautifulsoup4 FeedGenerator
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: execute py script
         run: |
