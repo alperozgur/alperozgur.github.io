@@ -1,4 +1,4 @@
-name: RSS workflow
+name: RSS Updater
 
 on:
   schedule:
