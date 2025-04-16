@@ -16,11 +16,12 @@ jobs:
           python-version: 3.8 #install the python needed
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 sqlite3 FeedGenerator
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: execute py script
         run: |
-          python app.py
+          python rss/gpt_parser.py
+          python rss/gpt_output.py
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
