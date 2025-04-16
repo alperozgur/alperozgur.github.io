@@ -24,8 +24,8 @@ jobs:
         run: |
           python rss/gpt_parser.py
           python rss/gpt_output.py
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name alperozgur
+          git config user.email dr.alperozgur@gmail.com
           git add .
           git commit -m "crongenerated"
           git push
