@@ -83,5 +83,5 @@ def fetch_articles3(url):
     except Exception as e:
         print(f"Unexpected error during parsing: {e}")
 
-for i in range(1, 7):
-    fetch_articles3("https://www.cumhuriyet.com.tr/yazarlar/altan-oymen/"+str(i))
+for i in range(1, 18):
+    fetch_articles3("https://www.cumhuriyet.com.tr/yazarlar/murat-agirel/"+str(i))
