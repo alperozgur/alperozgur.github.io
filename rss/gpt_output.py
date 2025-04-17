@@ -18,7 +18,7 @@ def generate_rss(output_file, author, link, parser):
         with sqlite3.connect(DB_PATH) as conn:
             cursor = conn.cursor()
             # Use parameterized query to prevent SQL injection
-            cursor.execute(f"SELECT title, link, desc, date FROM {TB_ARTICLES} WHERE author = ?", (author,))
+            cursor.execute(f"SELECT title, link, desc, date FROM {TB_ARTICLES} WHERE author = ? ORDER BY date DESC", (author,))
             rows = cursor.fetchall()
         
         if not rows:
