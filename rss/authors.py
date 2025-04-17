@@ -69,6 +69,37 @@ def parse_ekonomim(url, parser):
         print(f"Error fetching webpage: {e}")
     except Exception as e:
         print(f"Unexpected error during parsing: {e}")
+
+#Function to parse authors from the website Not general
+def parse_cumhuriyet(url, parser):
+    session = requests.Session()  # Use session for efficiency
+    try:
+        response = session.get(url, timeout=10)  # Set timeout
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        cards = soup.find_all('div', class_='kose-yazisi-ust')
+        for card in cards:
+            baseurl = "https://www.cumhuriyet.com.tr"
+            link_tag = card.find('a', href=True)
+            url = link_tag.get("href", "#") if link_tag else "#"
+            link = url.rpartition('/')
+            url = baseurl + link[0]
+            short = link[0].rpartition('/')
+            author = card.find('div', class_='adi').get_text(strip=True)
+            img = card.find('img').get('src')
+            img = baseurl + img
+            entry = (author,short[2],url,parser,img)
+            entry_id = add_author(entry)
+            if entry_id:
+                print(f'Added author {author}')
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching webpage: {e}")
+    except Exception as e:
+        print(f"Unexpected error during parsing: {e}")
+
 if __name__ == "__main__":
     parse_nefes("https://www.nefes.com.tr/yazarlar","nefes")
     parse_ekonomim("https://www.ekonomim.com/yazarlar","ekonomim")
+    parse_cumhuriyet("https://www.cumhuriyet.com.tr/yazarlar","cumhuriyet")

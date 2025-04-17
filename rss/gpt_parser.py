@@ -109,6 +109,38 @@ def fetch_articles2(url):
     except Exception as e:
         print(f"Unexpected error during parsing: {e}")
 
+#Function to fetch articles from the cumhuriyet website UNIQUE
+def fetch_articles3(url):
+    """Fetch articles from the given URL and store them in the database."""
+    session = requests.Session()  # Use session for efficiency
+    try:
+        response = session.get(url, timeout=10)  # Set timeout
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+        author = soup.find('div', class_='adi').get_text(strip=True)
+        container = soup.find('ul', class_='yazilar')
+        articles = container.find_all('li')
+        for article in articles:
+            baseurl = "https://www.cumhuriyet.com.tr"
+            link_tag = article.find('a', href=True)
+            link = link_tag.get("href", "#") if link_tag else "#"
+            link = baseurl + link
+            date_tag = article.find('span', class_='tarih')
+            date = date_tag.get_text(strip=True) if date_tag else "Unknown Date"
+            title = article.find("span", class_="baslik").get_text(strip=True) if link_tag else "No Title"
+            date = date.split(" ")
+            date = date[0] + " " + date[1] + " " + date[2]
+            date = convert_turkish_date(date)
+            entry = (author, date, title, "", link)
+            entry_id = add_article(entry)
+            if entry_id:
+                print(f'Added article {author}:{entry_id}')
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching webpage: {e}")
+    except Exception as e:
+        print(f"Unexpected error during parsing: {e}")
 
 def fetch_authors(parser):
     """Fetch author links from the database and parse their articles."""
@@ -122,10 +154,15 @@ def fetch_authors(parser):
                     print(f"Fetching articles for {row[1]} on {parser}...")
                     fetch_articles1(row[0])
                 elif parser == "ekonomim":
+                    print(f"Fetching articles for {row[1]} on {parser}...")
                     fetch_articles2(row[0])
+                elif parser == "cumhuriyet":
+                    print(f"Fetching articles for {row[1]} on {parser}...")
+                    fetch_articles3(row[0])
     except sqlite3.OperationalError as e:
         print(f"Database error: {e.sqlite_errmsg}")
 
 if __name__ == "__main__":
     fetch_authors("nefes")
     fetch_authors("ekonomim")
+    fetch_authors("cumhuriyet")
