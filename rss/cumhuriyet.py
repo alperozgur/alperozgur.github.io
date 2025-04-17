@@ -1,9 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import sqlite3
+from datetime import datetime
 
 DB_PATH = "./rss/articles.db"
+TB_ARTICLES = "articles"
 TB_AUTHORS = "authors"
+
 
 # Function to convert date from Turkish to yyyy-mm-dd format
 def convert_turkish_date(turkish_date):
@@ -34,9 +37,18 @@ def convert_turkish_date(turkish_date):
     
     return formatted_date
 
-#Function to add author to the database GENERAL
-def add_article(author):
-    print(author)
+#Function to add article to the database GENERAL
+def add_article(article):
+    try:
+        with sqlite3.connect(DB_PATH) as conn:
+            sql = f'''INSERT INTO {TB_ARTICLES}(author, date, title, desc, link) VALUES (?, ?, ?, ?, ?)'''
+            cur = conn.cursor()
+            cur.execute(sql, article)
+            conn.commit()
+            return cur.lastrowid
+    except sqlite3.Error as e:
+        print(f"Database error: {e}")
+        return None
     
 #Function to fetch articles from the cumhuriyet website UNIQUE
 def fetch_articles3(url):
@@ -71,21 +83,5 @@ def fetch_articles3(url):
     except Exception as e:
         print(f"Unexpected error during parsing: {e}")
 
-def fetch_authors(parser):
-    """Fetch author links from the database and parse their articles."""
-    try:
-        with sqlite3.connect(DB_PATH) as conn:
-            cur = conn.cursor()
-            cur.execute(f"SELECT link, author FROM {TB_AUTHORS} WHERE parser = '{parser}'")
-            rows = cur.fetchall()
-            for row in rows:
-                if parser == "cumhuriyet":
-                    print(f"Fetching articles for {row[1]} on {parser}...")
-                    fetch_articles3(row[0])
-                elif parser == "ekonomim":
-                    fetch_articles2(row[0])
-    except sqlite3.OperationalError as e:
-        print(f"Database error: {e.sqlite_errmsg}")
-
-if __name__ == "__main__":
-    fetch_authors("cumhuriyet")
+for i in range(1, 7):
+    fetch_articles3("https://www.cumhuriyet.com.tr/yazarlar/altan-oymen/"+str(i))
