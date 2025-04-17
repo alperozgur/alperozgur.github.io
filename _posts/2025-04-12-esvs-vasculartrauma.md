@@ -5,7 +5,7 @@ date: 2025-04-12 14:00:00 +0000
 categories: [Guidelines]
 tags: [trauma]
 image:
-    path: media/image/guideline.png
+    path: media/image/guidelines.png
 
 ---
 

@@ -4,7 +4,7 @@ date: 2025-04-12 15:00:00 +0000
 categories: [Vascular]
 tags: [vascular, trauma]
 image:
-    path: media/image/notes.png
+    path: media/image/StudyNotes.png
 
 ---
 ### Orthopaedic injuries associated with vascular injuries.
