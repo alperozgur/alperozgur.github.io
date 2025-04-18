@@ -1,11 +1,11 @@
 ---
-# the default layout is 'page'
 title: About me
-icon: fas fa-info-circle
-order: 4
+icon: fas fa-address-card
+order: 1
 ---
 
-I am a cardiovascular surgeon currently practicing at the University Hospital of Northern Sweden in Umeå. My clinical and academic background spans over a decade and includes experience in both public and private healthcare systems across Sweden and Türkiye.
+Hi!  
+My name is Alper Özgür. I am a cardiovascular surgeon currently practicing at the University Hospital of Northern Sweden in Umeå. My clinical and academic background spans over a decade and includes experience in both public and private healthcare systems across Sweden and Türkiye.
 
 I obtained my medical degree from Çukurova University in Adana, Türkiye. Throughout my education, I had the opportunity to broaden my medical perspective through studies in Spain (Universitat de Lleida) and Latvia (Rīga Stradiņš University), which deeply enriched both my clinical approach and cultural understanding. 
 

@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  getarticles:
+  rssupdater:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
