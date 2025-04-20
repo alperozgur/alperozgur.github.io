@@ -4,6 +4,8 @@ icon: fas fa-address-card
 order: 1
 ---
 
+![Profile Photo](assets/img/profile.jpeg){: w="200"}{: .left }
+
 Hi!  
 My name is Alper Özgür. I am a cardiovascular surgeon currently practicing at the University Hospital of Northern Sweden in Umeå. My clinical and academic background spans over a decade and includes experience in both public and private healthcare systems across Sweden and Türkiye.
 
