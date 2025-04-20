@@ -2,7 +2,7 @@
 title: "Summary: Guidelines on the Management of Vascular Trauma - ESVS 2025"
 date: 2025-04-12 15:00:00 +0000
 categories: [Study Notes, Summary]
-tags: [notes, trauma, clinical-practice, guidelines]
+tags: [vascular, trauma]
 image: media/image/StudyNotes.png
 
 ---
