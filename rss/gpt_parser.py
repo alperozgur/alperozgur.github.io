@@ -163,6 +163,6 @@ def fetch_authors(parser):
         print(f"Database error: {e.sqlite_errmsg}")
 
 if __name__ == "__main__":
-    #fetch_authors("nefes")
-    #fetch_authors("ekonomim")
+    fetch_authors("nefes")
+    fetch_authors("ekonomim")
     fetch_authors("cumhuriyet")
