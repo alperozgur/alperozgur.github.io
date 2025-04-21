@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "Understanding the New ESVS Recommendation Grading System"
 date: 2025-04-17 12:00:00 +0000
 categories: [General]
 tags: [articles, grading, clinical-practice, guidelines]
+article_link: https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext
 pin: true
 ---
 
@@ -58,7 +60,3 @@ Each recommendation is also assigned a level of evidence:
 This structured approach aids clinicians in evaluating the reliability of recommendations, ensuring that patient care decisions are informed by the best available evidence. By standardizing the grading system, the ESVS aims to facilitate clearer communication among healthcare professionals and improve patient outcomes.
 
 For a comprehensive understanding, refer to the full guidelines published in the European Journal of Vascular and Endovascular Surgery.
-
-### Link
-
-[Go to article](https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext){:target="_blank"}{: .btn} 

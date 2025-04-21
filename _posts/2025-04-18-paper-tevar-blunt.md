@@ -1,12 +1,10 @@
 ---
-layout: paper
+layout: post
 title: "TEVAR for Blunt Aortic Trauma: A 20-Year Study Reveals Key Insights"
 date: 2025-04-18 15:00:00 +0000
 categories: [Aorta, Endovascular]
 tags: [articles, TEVAR, trauma]
 article_link: https://www.ejves.com/article/S1078-5884(24)00923-7/fulltext
-download_link: https://www.ejves.com/action/showPdf?pii=S1078-5884%2824%2900923-7
-toc: true
 ---
 
 ## **Why This Study Matters**  
