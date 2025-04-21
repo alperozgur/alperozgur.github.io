@@ -123,15 +123,15 @@ script_includes:
   {% endif %}
   <hr>
   {% if page.featured %}
-  <div class="card bg-light w-100">
+  <div class="card border-light mb-3 w-100">
+    <div class="card-header">Featured Article</div>
     <div class="card-body">
-      <h5 class="card-title">Featured Article</h5>
       <p class="card-text">{{ page.article_title }}</p>
-      <div class="btn-group" role="group" aria-label="Article links">
-          <a href="{{ page.article_link }}" class="btn btn-outline-dark" target="_blank">
-            <i class="fa-solid fa-square-arrow-up-right"></i><span> Go to the article</span>
-          </a>
-      </div>
+    </div>
+    <div class="card-footer">
+      <a href="{{ page.article_link }}" class="btn btn-outline-dark" target="_blank">
+        <i class="fa-solid fa-square-arrow-up-right"></i><span> Go to the article</span>
+      </a>
     </div>
   </div>
   <hr>
