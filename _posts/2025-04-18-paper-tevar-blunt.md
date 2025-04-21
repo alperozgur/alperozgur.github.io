@@ -23,4 +23,4 @@ Blunt traumatic aortic injury (BTAI) is a life-threatening condition often seen 
 - **Better Protocols Needed:** The study suggests revising follow-up guidelines to reduce unnecessary scans for stable patients while catching problems early in high-risk cases.  
 
 ## **Final Takeaway**  
-This study solidifies TEVAR as the best option for BTAI, with strong long-term results. By optimizing follow-up strategies, doctors can further improve outcomes for trauma patients.  
+This study solidifies TEVAR as the best option for BTAI, with strong long-term results. By optimizing follow-up strategies, doctors can further improve outcomes for trauma patients.
