@@ -4,8 +4,9 @@ title: "Understanding the New ESVS Recommendation Grading System"
 date: 2025-04-17 12:00:00 +0000
 categories: [General]
 tags: [articles, grading, clinical-practice, guidelines]
+featured: true
+article_title: "The New European Society for Vascular Surgery Clinical Practice Guidelines Recommendation Grading System"
 article_link: https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext
-download_link: https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext
 pin: true
 ---
 

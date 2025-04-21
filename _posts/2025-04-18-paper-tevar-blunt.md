@@ -4,8 +4,9 @@ title: "TEVAR for Blunt Aortic Trauma: A 20-Year Study Reveals Key Insights"
 date: 2025-04-18 15:00:00 +0000
 categories: [Aorta, Endovascular]
 tags: [articles, TEVAR, trauma]
+featured: true
+article_title: "Long Term Outcomes of Endovascular Repair for Blunt Traumatic Aortic Injury: A Twenty Year Multicentre Follow Up Study"
 article_link: https://www.ejves.com/article/S1078-5884(24)00923-7/fulltext
-download_link: https://www.ejves.com/article/S1078-5884(24)00923-7/fulltext
 ---
 
 ## **Why This Study Matters**  
