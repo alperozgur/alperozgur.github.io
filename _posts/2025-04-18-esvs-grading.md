@@ -5,6 +5,7 @@ date: 2025-04-17 12:00:00 +0000
 categories: [General]
 tags: [articles, grading, clinical-practice, guidelines]
 article_link: https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext
+download_link: https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext
 pin: true
 ---
 
