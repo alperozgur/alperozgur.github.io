@@ -128,13 +128,13 @@ script_includes:
 
   {% if page.article_link %}
   <hr>
-  <a href="{{ page.article_link }}" class="btn btn-dark" target="_blank">
-  <i class="fa-solid fa-square-arrow-up-right"></i> Go to the article
+  <a href="{{ page.article_link }}" class="btn btn-secondary" target="_blank">
+  <i class="fa-solid fa-square-arrow-up-right"></i><span> Go to the article</span>
   </a>
   {% endif %}
   {% if page.download_link %}
-    | <a href="{{ page.download_link }}" download class="btn btn-outline-dark" target="_blank">
-    <i class="fa-solid fa-download"></i> Download file
+    | <a href="{{ page.download_link }}" download class="btn btn-secondary" target="_blank">
+    <i class="fa-solid fa-download"></i><span> Download</span>
     </a>
   {% endif %}
   <div class="post-tail-wrapper text-muted">
