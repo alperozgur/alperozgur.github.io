@@ -1,7 +1,9 @@
 ---
+layout: page
 icon: fas fa-book-medical
 order: 2
 image: media/image/guidelines.png
+variables: ['data1','data2']
 ---
 ## ESVS Clinical Practice Guidelines – Up-to-Date and Accessible  
 
