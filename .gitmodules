@@ -1,0 +1,3 @@
+[submodule "rss"]
+	path = rss
+	url = https://github.com/alperozgur/rss_creator.git
