@@ -21,10 +21,10 @@ jobs:
           pip install requests beautifulsoup4 feedgen pytz
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Fetch articles
-        run: python rss/gpt_parser.py runserver
+        run: python rss/parser.py runserver
 
       - name: Create RSS files
-        run: python rss/gpt_output.py
+        run: python rss/output.py
         
       - name: Commit
         run: |
