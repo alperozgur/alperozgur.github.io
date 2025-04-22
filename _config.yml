@@ -225,3 +225,8 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# The following settings are used to generate the sitemap.xml file
+url: "https://alperozgur.net" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
