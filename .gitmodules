@@ -1,6 +1,3 @@
-[submodule "rss"]
-	path = rss
-	url = https://github.com/alperozgur/rss_creator.git
 [submodule "assets/lib"]
 	path = assets/lib
 	url = https://github.com/cotes2020/chirpy-static-assets.git
