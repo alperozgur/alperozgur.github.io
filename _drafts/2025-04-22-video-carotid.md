@@ -3,12 +3,14 @@ layout: post
 title: "Video: Carotid Endarterectomy"
 description: "An informative video on the carotid artery surgery."
 date: 2025-04-22
-categories: [Carotis, Video]
-tags: [carotis, video, surgery]
+categories: [carotid]
+tags: [carotid, video, surgery]
+image: assets/img/notes.jpeg
+
 ---
 
 In this post, we explore the carotid artery endarterectomy through an informative video. 
 
-{% include embed/youtube.html id='AWXCpRJAN8M' %}
+{% include embed/youtube.html id='2BpVwJqGSUQ' %}
 
 
