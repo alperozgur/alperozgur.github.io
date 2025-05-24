@@ -7,7 +7,6 @@ tags: [articles, grading, clinical-practice, guidelines]
 featured: true
 article_title: "The New European Society for Vascular Surgery Clinical Practice Guidelines Recommendation Grading System"
 article_link: https://www.ejves.com/article/S1078-5884(24)00710-X/fulltext
-pin: true
 ---
 
 The European Society for Vascular Surgery (ESVS) has introduced a revised grading system in its Clinical Practice Guidelines, aiming to enhance clarity and consistency in clinical decision-making. This updated framework is designed to better reflect the strength of recommendations and the quality of supporting evidence.
