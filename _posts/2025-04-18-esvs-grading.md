@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding the New ESVS Recommendation Grading System"
 date: 2025-04-17 12:00:00 +0000
-categories: [General]
+categories: [Aorta, General]
 tags: [articles, grading, clinical-practice, guidelines]
 featured: true
 article_title: "The New European Society for Vascular Surgery Clinical Practice Guidelines Recommendation Grading System"

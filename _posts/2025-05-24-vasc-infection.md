@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparing Skin Closure Techniques in Groin Vascular Surgery: Insights from a Finnish RCT"
-date: 2025-05-24 15:00:00 +0000
+date: 2025-05-24 15:30:00 +0000
 categories: [Vascular]
 tags: [articles, vascular, infection]
 featured: true
