@@ -5,6 +5,6 @@ order: 3
 ---
 ## Current presentations   
 
-| Presentation Topic |
-|-----------------|
-| [BT inom kärlkirurgi (2025)](https://alperozgur.net/live/bt){:target="_blank"} |
+| Presentation Topic | Link |
+|-----------------|----------------|
+| BT inom kärlkirurgi (2025) | [Link](https://alperozgur.net/live/bt-endovaskular){:target="_blank"} |
