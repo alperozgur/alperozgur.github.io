@@ -67,5 +67,3 @@ In vascular surgery, clinically relevant calculators help guide decision-making,
   Simple but crucial tool for diagnosing PAD.
 
 ---
-
-Would you like this in a blog post format for your website or as a pocket guide PDF?
