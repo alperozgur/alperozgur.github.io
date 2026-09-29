@@ -1,4 +1,10 @@
-# FloTrac: reading the numbers at the bedside
+---
+title: "FloTrac: reading the numbers at the bedside"
+date: 2026-09-29 09:30:00 +0200
+categories: [Clinical Notes, Hemodynamics]
+tags: [flotrac, hemodynamics, cardiac-output]
+mermaid: true
+---
 
 FloTrac uses the arterial pressure waveform to estimate blood flow. On a HemoSphere monitor it updates stroke volume (SV), stroke volume variation (SVV), cardiac output (CO), mean arterial pressure (MAP), and systemic vascular resistance (SVR) about every 20 seconds. It is most useful when the numbers are read together: *Is pressure low because flow is low, vascular tone is low, or both?* [1]
 
