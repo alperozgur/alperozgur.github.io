@@ -15,9 +15,9 @@ Following medical school, I entered the Cardiovascular Surgery Residency Program
 
 In the latter part of my residency, I continued my training at Ankara University, where I focused on advanced cardiovascular interventions, perioperative management, and postoperative care. During this time, I gained significant experience in open heart surgery, aortic aneurysm repair, endovascular procedures, advanced life support systems (ECMO,LVAD) and heart transplantations while also participating in academic case discussions and clinical teaching activities.
 
-Between 2017 and 2023, I served in several institutions including Yozgat City Hospital, Güven Sağlık Grubu, and Memorial Healthcare Group in Ankara, focusing on both open and endovascular procedures. Since 2023, I have been a part of the vascular surgery team at the University Hospital of Northern Sweden, where I continue to develop my clinical and academic interests in vascular and endovascular interventions.
+Between 2017 and 2023, I served in several institutions including Yozgat City Hospital, Güven Sağlık Grubu, and Memorial Healthcare Group in Ankara, focusing on both open and endovascular procedures. In 2023 I joined the vascular surgery team at the University Hospital of Northern Sweden, where I continued to develop my clinical and academic interests in vascular and endovascular interventions. In early 2026, I moved to the hospital’s cardiothoracic surgery department to spend more of my clinical time in heart surgery and continue developing my operative skills in that field.
 
-This blog serves as a platform to share professional insights, academic reflections, and developments in the field of cardiovascular surgery.
+This blog serves as a platform to share professional insights, academic reflections, and developments in the field of cardiovascular and thoracic surgery.
 
 ### Experience
 
