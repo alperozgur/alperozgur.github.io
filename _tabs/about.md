@@ -23,7 +23,7 @@ This blog serves as a platform to share professional insights, academic reflecti
 
 | Hospital                     | Date |
 | :--------------------------- | :--- |
-| Universityhospital of Northern Sweden | August 2023 - Present |
+| University Hospital of Northern Sweden | August 2023 - Present |
 | Memorial Healthcare Group | May 2022 - August 2023 |
 | Güven Sağlık Grubu | May 2021 - June 2022 |
 | Yozgat City Hospital | November 2017 - May 2021 |
